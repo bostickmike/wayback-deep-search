@@ -448,3 +448,57 @@
 2026-11-17 16:51:38 error schoolloop.com 265 None <urlopen error [Errno 110] Connection timed out>
 2026-11-17 16:59:21 error schoolloop.com 267 None <urlopen error [Errno 110] Connection timed out>
 2026-11-17 17:04:21 == stopping: chunk time limit (rerun to resume)
+2026-11-17 17:04:34 targets 262
+2026-11-17 17:06:31 error schoolloop.com  None IncompleteRead(49411 bytes read)
+2026-11-17 17:06:31 simple query failed, trying page mode schoolloop.com
+2026-11-17 17:07:25 error schoolloop.com 268 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 17:12:30 error schoolloop.com 268 503 HTTP Error 503: Service Unavailable
+2026-11-17 17:23:46 error schoolloop.com 270 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 17:28:51 error schoolloop.com 270 503 HTTP Error 503: Service Unavailable
+2026-11-17 17:40:04 error schoolloop.com 272 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 17:46:19 error schoolloop.com 274 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 17:52:29 error schoolloop.com 276 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 17:58:18 error schoolloop.com 278 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 18:04:18 error schoolloop.com 278 504 HTTP Error 504: Gateway Time-out
+2026-11-17 18:14:24 error schoolloop.com 278 503 HTTP Error 503: Service Unavailable
+2026-11-17 18:29:24 gave up schoolloop.com page 278
+2026-11-17 18:29:29 error schoolspring.com  503 HTTP Error 503: Service Unavailable
+2026-11-17 18:29:29 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-17 18:44:29 targets 262
+2026-11-17 18:46:44 error schoolloop.com  None IncompleteRead(49411 bytes read)
+2026-11-17 18:46:44 simple query failed, trying page mode schoolloop.com
+2026-11-17 18:47:03 error schoolloop.com 278 503 HTTP Error 503: Service Unavailable
+2026-11-17 18:52:57 error schoolloop.com 280 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 18:59:46 error schoolloop.com 282 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 19:06:09 error schoolloop.com 284 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 19:12:55 error schoolloop.com 286 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 19:18:56 error schoolloop.com 286 504 HTTP Error 504: Gateway Time-out
+2026-11-17 19:30:58 error schoolloop.com 287 502 HTTP Error 502: Bad Gateway
+2026-11-17 19:36:55 error schoolloop.com 288 503 HTTP Error 503: Service Unavailable
+2026-11-17 19:43:51 error schoolloop.com 290 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 19:50:28 error schoolloop.com 292 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 19:56:39 error schoolloop.com 294 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 20:02:32 error schoolloop.com 296 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 20:08:35 error schoolloop.com 298 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 20:14:56 error schoolloop.com 300 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 20:20:47 progress schoolloop.com 300 / 5581
+2026-11-17 20:21:26 error schoolloop.com 302 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 20:27:37 error schoolloop.com 304 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 20:33:37 error schoolloop.com 304 504 HTTP Error 504: Gateway Time-out
+2026-11-17 20:45:08 error schoolloop.com 305 504 HTTP Error 504: Gateway Time-out
+2026-11-17 20:51:41 error schoolloop.com 306 504 HTTP Error 504: Gateway Time-out
+2026-11-17 20:57:49 error schoolloop.com 308 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 21:04:18 error schoolloop.com 310 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 21:10:18 error schoolloop.com 310 504 HTTP Error 504: Gateway Time-out
+2026-11-17 21:20:24 error schoolloop.com 310 503 HTTP Error 503: Service Unavailable
+2026-11-17 21:35:24 gave up schoolloop.com page 310
+2026-11-17 21:35:29 error schoolspring.com  503 HTTP Error 503: Service Unavailable
+2026-11-17 21:35:29 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-17 21:50:29 targets 262
+2026-11-17 21:52:43 error schoolloop.com  None IncompleteRead(49411 bytes read)
+2026-11-17 21:52:43 simple query failed, trying page mode schoolloop.com
+2026-11-17 21:54:03 error schoolloop.com 311 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 22:00:36 error schoolloop.com 313 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 22:07:10 error schoolloop.com 315 None <urlopen error [Errno 111] Connection refused>
+2026-11-17 22:13:10 error schoolloop.com 315 504 HTTP Error 504: Gateway Time-out
+2026-11-17 22:24:58 == stopping: chunk time limit (rerun to resume)
