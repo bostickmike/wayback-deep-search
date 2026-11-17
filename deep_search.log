@@ -307,3 +307,32 @@
 2026-11-16 22:03:00 error mtcityschool.net 31 504 HTTP Error 504: Gateway Time-out
 2026-11-16 22:13:05 error mtcityschool.net 31 503 HTTP Error 503: Service Unavailable
 2026-11-16 22:13:05 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-17 05:20:05 targets 262
+2026-11-17 05:20:11 error mtcityschool.net  503 HTTP Error 503: Service Unavailable
+2026-11-17 05:25:54 done mtcityschool.net rows 14
+2026-11-17 05:26:19 done mtsba.org rows 849
+2026-11-17 05:27:41 done natronaschools.org rows 1228
+2026-11-17 05:28:38 done newboces.com rows 11
+2026-11-17 05:28:53 done newboces.org rows 3
+2026-11-17 05:29:17 error noxonschools.com  503 HTTP Error 503: Service Unavailable
+2026-11-17 05:35:33 done noxonschools.com rows 236
+2026-11-17 05:36:04 done nwboces.com rows 59
+2026-11-17 05:36:28 error nyeschooldistrict.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-17 05:41:33 error nyeschooldistrict.org  503 HTTP Error 503: Service Unavailable
+2026-11-17 05:52:23 done nyeschooldistrict.org rows 1
+2026-11-17 05:52:45 done olneybissellschool.com rows 42
+2026-11-17 05:53:08 error park6.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-17 05:58:26 done park6.org rows 349
+2026-11-17 05:58:41 done parkcityschools.org rows 431
+2026-11-17 05:59:05 error parkcounty.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-17 06:04:45 done parkcounty.org rows 744
+2026-11-17 06:05:02 done pcsd1.org rows 183
+2026-11-17 06:06:02 done pcsd16.com rows 4
+2026-11-17 06:06:35 done petroleumcountymt.com rows 0
+2026-11-17 06:07:04 error philipsburgschools.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-17 06:12:52 done philipsburgschools.org rows 75
+2026-11-17 06:13:16 done pioneerschool.us rows 451
+2026-11-17 06:14:20 done plainsschools.net rows 48
+2026-11-17 06:14:44 error platte1.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-17 06:20:49 done platte1.org rows 42
+2026-11-17 06:20:49 == stopping: chunk time limit (rerun to resume)
