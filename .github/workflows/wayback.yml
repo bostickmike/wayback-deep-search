@@ -1,0 +1,69 @@
+name: Wayback deep search
+
+# One run searches for `minutes`, commits its progress (done.tsv, results/, the log), and, with `chain`, starts the
+# next run, until the log says every target is finished. To stop the chain: commit a file named STOP, or cancel the
+# run in progress. deep_search.py resumes from done.tsv and results/.<target>.page, so any run can be cut short.
+on:
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: Minutes of searching in this run (keep under ~330; the job limit is 360)
+        default: "320"
+      chain:
+        description: Start the next run when this one ends, until finished
+        type: boolean
+        default: true
+
+permissions:
+  contents: write   # commit progress
+  actions: write    # start the next run
+
+concurrency:
+  group: wayback    # one Wayback job at a time
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Search
+        env:
+          MINUTES: ${{ inputs.minutes }}
+        run: |
+          end=$(( $(date +%s) + MINUTES * 60 ))
+          export DEADLINE=$end
+          while [ "$(date +%s)" -lt $(( end - 300 )) ]; do
+            python3 -I deep_search.py || echo "deep_search.py exited $?"
+            last=$(tail -n 1 deep_search.log)
+            echo "last log line: $last"
+            if echo "$last" | grep -q 'finished all targets'; then touch FINISHED; break; fi
+            if echo "$last" | grep -q 'chunk time limit'; then break; fi
+            # Stopped after 3 throttled answers in a row: wait, then resume (as rerunning it by hand did).
+            sleep 900
+          done
+          echo "targets done: $(wc -l < done.tsv)"
+
+      - name: Commit progress
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A done.tsv targets.tsv deep_search.log results
+          if [ -f FINISHED ]; then git add FINISHED; fi
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "Wayback deep search progress: $(wc -l < done.tsv) targets done"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 10; done
+          exit 1
+
+      - name: Start the next run
+        if: success() && inputs.chain && hashFiles('FINISHED') == '' && hashFiles('STOP') == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run wayback.yml --ref "${{ github.ref_name }}" -f minutes=320 -f chain=true
