@@ -1,0 +1,10 @@
+20210617030311 https://www.applitrack.com/scsd2/OnlineApp/ text/html
+20210925010432 https://www.applitrack.com/scsd2/OnlineApp/ text/html
+20240303231813 https://www.applitrack.com/scsd2/OnlineApp/ text/html
+20230329192159 https://www.applitrack.com/scsd2/OnlineApp/default.aspx?Category=Student+Support+Services&AppliTrackJobId=669&AppliTrackLayoutMode=detail&AppliTrackViewPosting=1 text/html
+20240619200507 https://www.applitrack.com/scsd2/OnlineApp/default.aspx?Category=Student+Support+Services&AppliTrackJobId=669&AppliTrackLayoutMode=detail&AppliTrackViewPosting=1 text/html
+20240716124101 https://www.applitrack.com/scsd2/OnlineApp/default.aspx?Category=Central+Office+Administrators text/html
+20230924160951 https://www.applitrack.com/scsd2/OnlineApp/JobPostings/view.asp?all=1&AppliTrackJobId=1021&AppliTrackLayoutMode=detail&AppliTrackViewPosting=1 text/html
+20240622002448 https://www.applitrack.com/scsd2/OnlineApp/JobPostings/view.asp?all=1&AppliTrackJobId=1231&AppliTrackLayoutMode=detail&AppliTrackViewPosting=1 text/html
+20240621234500 https://www.applitrack.com/scsd2/OnlineApp/JobPostings/view.asp?all=1&AppliTrackJobId=1239&AppliTrackLayoutMode=detail&AppliTrackViewPosting=1 text/html
+20240715183414 https://www.applitrack.com/scsd2/OnlineApp/JobPostings/view.asp?embed=1 text/html

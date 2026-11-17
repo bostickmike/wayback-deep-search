@@ -1,6 +1,3 @@
 __pycache__/
 *.pyc
 samples/
-catalog_by_target.tsv
-catalog_urls.tsv
-fetch_queue.tsv

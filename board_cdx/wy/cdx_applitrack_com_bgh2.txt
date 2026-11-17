@@ -1,0 +1,16 @@
+20240705180603 https://www.applitrack.com/bgh2/onlineapp/images/header.gif image/gif
+20240706015613 https://www.applitrack.com/bgh2/OnlineApp/JobPostings/View.asp text/html
+20240705145543 https://www.applitrack.com/bgh2/OnlineApp/JobPostings/View.asp?AppliTrackJobId=180 text/html
+20240619230040 https://www.applitrack.com/bgh2/onlineapp/JobPostings/view.asp?FromAdmin=true&AppliTrackJobId=194&fbclid=IwZXh0bgNhZW0CMTAAAR1KAx8mV5Ilr0EcqEEvX448mJPpTOY6K-z-Tk_BnlTHkuFwcx-VGQ1KxRM_aem_ATm3y433nbko7v85WXsp1mfPuARVugfaB1vupRqPkYqiHeUTRZ7YugnXgrbwArtHRsXEeXHT3nVga0jP3IUK0TL5 text/html
+20220819135049 https://www.applitrack.com/bgh2/OnlineApp/JobPostings/View.asp?AppliTrackJobId=206 text/html
+20230322212535 https://www.applitrack.com/bgh2/OnlineApp/JobPostings/View.asp?AppliTrackJobId=210 text/html
+20230322225141 https://www.applitrack.com/bgh2/OnlineApp/JobPostings/View.asp?AppliTrackJobId=219 text/html
+20230322231927 https://www.applitrack.com/bgh2/OnlineApp/JobPostings/View.asp?AppliTrackJobId=220 text/html
+20230322222348 https://www.applitrack.com/bgh2/OnlineApp/JobPostings/View.asp?AppliTrackJobId=223 text/html
+20230322224647 https://www.applitrack.com/bgh2/OnlineApp/JobPostings/View.asp?AppliTrackJobId=224 text/html
+20230322230802 https://www.applitrack.com/bgh2/OnlineApp/JobPostings/View.asp?AppliTrackJobId=225 text/html
+20240416012834 https://www.applitrack.com/bgh2/onlineapp/JobPostings/view.asp?FromAdmin=true&AppliTrackJobId=251 text/html
+20240416011919 https://www.applitrack.com/bgh2/onlineapp/JobPostings/view.asp?FromAdmin=true&AppliTrackJobId=256 text/html
+20240620212442 https://www.applitrack.com/bgh2/onlineapp/JobPostings/view.asp?FromAdmin=true&AppliTrackJobId=276 text/html
+20220927015042 https://www.applitrack.com/bgh2/OnlineApp/JobPostings/view.asp?embed=1 text/html
+20240527061959 https://www.applitrack.com/bgh2/onlineapp/JobPostings/view.asp?embed=1 text/html

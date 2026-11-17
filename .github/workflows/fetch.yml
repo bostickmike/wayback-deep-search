@@ -1,0 +1,71 @@
+name: Wayback page fetch (extracted rows only)
+
+# Started by wayback.yml when the deep search finishes (or by hand). Each run fetches for `minutes`, keeps only the
+# rows extract.py pulls out of each page (no page is stored), commits them, and with `chain` starts the next run until
+# the queue is done. Same concurrency group as the deep search: never two Wayback jobs at once. STOP file ends it.
+on:
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: Minutes of fetching in this run (keep under ~330)
+        default: "320"
+      chain:
+        description: Start the next run when this one ends, until finished
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: wayback
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pdftotext
+        run: sudo apt-get update -q && sudo apt-get install -y -q poppler-utils
+
+      - name: Fetch and extract
+        env:
+          MINUTES: ${{ inputs.minutes }}
+        run: |
+          end=$(( $(date +%s) + MINUTES * 60 ))
+          export DEADLINE=$end
+          while [ "$(date +%s)" -lt $(( end - 300 )) ]; do
+            python3 -I fetch_pages.py || echo "fetch_pages.py exited $?"
+            last=$(tail -n 1 fetch_pages.log)
+            echo "last log line: $last"
+            if echo "$last" | grep -q 'finished: every queued version'; then touch FETCH_FINISHED; break; fi
+            if echo "$last" | grep -q 'chunk time limit'; then break; fi
+            sleep 900   # throttled: wait, then resume
+          done
+          echo "versions handled: $(wc -l < fetched.tsv 2>/dev/null || echo 0)"
+
+      - name: Commit progress
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A extracted fetched.tsv fetch_pages.log
+          for f in failed.tsv queue_extra.tsv applitrack_done.txt FETCH_FINISHED; do if [ -f "$f" ]; then git add "$f"; fi; done
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "Wayback page fetch progress: $(wc -l < fetched.tsv 2>/dev/null || echo 0) versions handled"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 10; done
+          exit 1
+
+      - name: Start the next run
+        if: success() && inputs.chain && hashFiles('FETCH_FINISHED') == '' && hashFiles('STOP') == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run fetch.yml --ref "${{ github.ref_name }}" -f minutes=320 -f chain=true

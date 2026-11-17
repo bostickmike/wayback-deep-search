@@ -1,0 +1,6 @@
+20240503042537 https://lutherschool.org/index.php/documents text/html
+20240602214858 https://lutherschool.org/index.php/documents text/html
+20240703125936 https://lutherschool.org/index.php/documents text/html
+20240503080805 https://lutherschool.org/index.php/documents?id=3 text/html
+20240602234153 https://lutherschool.org/index.php/documents?id=3 text/html
+20240703221458 https://lutherschool.org/index.php/documents?id=3 text/html

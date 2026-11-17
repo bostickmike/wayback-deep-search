@@ -1,0 +1,4 @@
+20240710230234 https://www.lgschools.org/apps/pages/index.jsp text/html
+20220927075358 https://www.lgschools.org/apps/pages/index.jsp?uREC_ID=373398&type=d text/html
+20240711084119 https://www.lgschools.org/apps/pages/index.jsp?uREC_ID=373420&type=d text/html
+20240121164502 https://www.lgschools.org/apps/pages/index.jsp?uREC_ID=373421&type=d text/html

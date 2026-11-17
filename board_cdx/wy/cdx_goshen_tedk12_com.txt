@@ -1,0 +1,9 @@
+20221006224859 https://goshen.tedk12.com/ text/html
+20240304075936 https://goshen.tedk12.com// text/html
+20220327051511 https://goshen.tedk12.com/favicon.ico image/x-icon
+20220327202059 https://goshen.tedk12.com/hire/hirefavicon.ico image/x-icon
+20191014162426 https://goshen.tedk12.com/hire/Index.aspx text/html
+20220326101842 https://goshen.tedk12.com/hire/Index.aspx text/html
+20220327164651 https://goshen.tedk12.com/hire/index.aspx text/html
+20220327164657 https://goshen.tedk12.com/hire/index.aspx text/html
+20221006224330 https://goshen.tedk12.com/hire/index.aspx text/html

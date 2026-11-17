@@ -13,9 +13,20 @@ content digest, length; one row per content change). No archived pages are store
   off on 429/503/504, stops after 3 throttled answers in a row. Resumable from `done.tsv` and `results/.<target>.page`.
 - `targets.tsv`: the targets and why each is included. `done.tsv`: finished targets with row or page counts.
 - `results/<target>.tsv`: the index rows. `deep_search.log`: progress and errors.
-- `summarize.py`: sorts the rows into vacancy / pay / other and writes catalogs and a fetch queue (not committed).
+- `summarize.py`: sorts the rows into vacancy / pay / other and writes `catalog_by_target.tsv`, `catalog_urls.tsv`
+  and `fetch_queue.tsv` (committed when the search finishes).
 - `probe.py`: one CDX call, for testing a lead. `leads.tsv`: leads found that way.
 - Inputs: `district_hosts.txt`, `wy_nces_websites.tsv`, `mt_nces_websites.tsv` (district websites from NCES), `wy_leaids.tsv`.
+
+## Page fetch (after the search): extracted rows only
+When the search finishes, `wayback.yml` runs `summarize.py` (vacancy pages, pay documents, single posting pages from
+the board surveys' index listings in `board_cdx/`) and starts `fetch.yml`. `fetch_pages.py` first asks the index for
+each AppliTrack board's archived listing pages (`applitrack_slugs.txt` -> `queue_extra.tsv`), then fetches every
+queued version once (same digest = same content, fetched once), passes it to `extract.py`, and keeps only:
+- `extracted/pages/<target>.tsv`: one row per version (HTTP status, size, SHA-1, title, counts);
+- `extracted/lines/<target>.tsv`: candidate lines: `job` (reads like a job title or posting, with any date and its
+  link) and `pay` (dollar figures or a salary-table row).
+No archived page is stored. The rules are deliberately broad: the lines are candidates for later parsing and review.
 
 ## Running
 GitHub Actions, `.github/workflows/wayback.yml`, started by hand (Actions tab, "Run workflow"). Each run searches

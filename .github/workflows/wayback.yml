@@ -67,3 +67,18 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run wayback.yml --ref "${{ github.ref_name }}" -f minutes=320 -f chain=true
+
+      # Deep search done: rebuild the fetch queue from every result and hand over to the page fetch (fetch.yml,
+      # same concurrency group, so it starts after this run ends).
+      - name: Build the fetch queue and start the page fetch
+        if: success() && hashFiles('FINISHED') != '' && hashFiles('STOP') == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 -I summarize.py
+          git add catalog_by_target.tsv catalog_urls.tsv fetch_queue.tsv
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Fetch queue from the finished deep search: $(( $(wc -l < fetch_queue.tsv) - 1 )) versions"
+            for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 10; done
+          fi
+          gh workflow run fetch.yml --ref "${{ github.ref_name }}" -f minutes=320 -f chain=true

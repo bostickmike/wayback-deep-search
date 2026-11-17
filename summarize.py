@@ -60,7 +60,7 @@ for f in sorted(glob.glob('results/*.tsv')):
 # Board surveys' saved CDX listings (11-14/15): single posting pages and documents the list-page fetch skipped.
 POST = re.compile(r'applitrackjobid=|jobid=|/job/|jobdetail|viewjob|posting_?id=|/jobs/\d', re.I)
 seen_q = {(q[4], q[3]) for q in queue}
-for state, d in (('WY', '../2026-11-14_wy-history/boards'), ('MT', '../2026-11-15_mt-boards/boards')):
+for state, d in (('WY', 'board_cdx/wy'), ('MT', 'board_cdx/mt')):   # copied from the 11-14/15 board surveys
     c = collections.Counter()
     for f in glob.glob(d + '/cdx_*.txt'):
         name = 'board:' + os.path.basename(f)[4:-4]

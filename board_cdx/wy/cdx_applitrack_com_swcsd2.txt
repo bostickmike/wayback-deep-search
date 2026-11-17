@@ -1,0 +1,10 @@
+20220115172430 https://www.applitrack.com/swcsd2/onlineapp/ text/html
+20230329155453 https://www.applitrack.com/swcsd2/onlineapp/ text/html
+20240612175739 https://www.applitrack.com/swcsd2/onlineapp/ text/html
+20240725032835 https://www.applitrack.com/swcsd2/onlineapp/ text/html
+20210224212444 https://www.applitrack.com/swcsd2/onlineapp/_application.aspx?starting=true text/html
+20220124011812 https://www.applitrack.com/swcsd2/ruxitagentjs_ICA27Vfghjoqrux_10203201023153222.js text/javascript
+20220124011740 https://www.applitrack.com/swcsd2/WebResource.axd?d=629qferSN5B29IYHxQYhksPN-MFwwu_T9O9xECcd3dsT0PW5GmpcCoKMjrvcuxBQ1h6mmIK4OfoUenWB8HvtLDrlgPBqdhwAV_4Gu0wX_x41&t=637332481493156798 application/x-javascript
+20240726160720 https://www.applitrack.com/swcsd2/WebResource.axd?d=629qferSN5B29IYHxQYhksPN-MFwwu_T9O9xECcd3dsT0PW5GmpcCoKMjrvcuxBQ1h6mmIK4OfoUenWB8HvtLDrlgPBqdhwAV_4Gu0wX_x41&t=638259182771233176 application/x-javascript
+20220124012116 https://www.applitrack.com/swcsd2/WebResource.axd?d=AcZfmznXbIwNgYXenLUG5nSqobclSP-fBanLL0HVZ-gsiQw7l8jv4fYZ1K6iL3aLXjTt-0A9FIla8bpDmvjykr4xDXu6NnOC45_W3Ztvb5g1&t=637332481493156798 application/x-javascript
+20240727154913 https://www.applitrack.com/swcsd2/WebResource.axd?d=AcZfmznXbIwNgYXenLUG5nSqobclSP-fBanLL0HVZ-gsiQw7l8jv4fYZ1K6iL3aLXjTt-0A9FIla8bpDmvjykr4xDXu6NnOC45_W3Ztvb5g1&t=638259182771233176 application/x-javascript
