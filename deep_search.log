@@ -553,3 +553,58 @@
 2026-11-18 03:29:34 error schoolloop.com 387 504 HTTP Error 504: Gateway Time-out
 2026-11-18 03:40:54 error schoolloop.com 388 504 HTTP Error 504: Gateway Time-out
 2026-11-18 03:45:54 == stopping: chunk time limit (rerun to resume)
+2026-11-18 03:46:07 targets 262
+2026-11-18 03:48:21 error schoolloop.com  None IncompleteRead(49411 bytes read)
+2026-11-18 03:48:21 simple query failed, trying page mode schoolloop.com
+2026-11-18 03:49:04 error schoolloop.com 389 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 03:55:37 error schoolloop.com 392 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 04:02:00 error schoolloop.com 394 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 04:08:44 error schoolloop.com 396 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 04:15:30 error schoolloop.com 398 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 04:21:58 error schoolloop.com 400 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 04:27:58 error schoolloop.com 400 504 HTTP Error 504: Gateway Time-out
+2026-11-18 04:38:35 progress schoolloop.com 400 / 5581
+2026-11-18 04:39:16 error schoolloop.com 402 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 04:45:41 error schoolloop.com 404 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 04:51:41 error schoolloop.com 406 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 04:57:42 error schoolloop.com 408 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 05:04:02 error schoolloop.com 410 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 05:10:18 error schoolloop.com 412 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 05:17:03 error schoolloop.com 414 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 05:23:39 error schoolloop.com 415 504 HTTP Error 504: Gateway Time-out
+2026-11-18 05:29:24 error schoolloop.com 417 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 05:35:12 error schoolloop.com 419 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 05:41:57 error schoolloop.com 421 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 05:47:53 error schoolloop.com 423 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 05:54:17 error schoolloop.com 425 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 06:00:31 error schoolloop.com 427 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 06:06:39 error schoolloop.com 429 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 06:13:19 error schoolloop.com 431 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 06:19:59 error schoolloop.com 433 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 06:27:11 error schoolloop.com 435 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 06:33:34 error schoolloop.com 437 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 06:40:03 error schoolloop.com 439 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 06:46:12 error schoolloop.com 441 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 06:52:17 error schoolloop.com 443 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 06:58:18 error schoolloop.com 445 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 07:04:13 error schoolloop.com 447 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 07:11:02 error schoolloop.com 449 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 07:17:24 progress schoolloop.com 450 / 5581
+2026-11-18 07:17:39 error schoolloop.com 451 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 07:24:01 error schoolloop.com 453 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 07:30:24 error schoolloop.com 454 504 HTTP Error 504: Gateway Time-out
+2026-11-18 07:37:02 error schoolloop.com 456 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 07:43:09 error schoolloop.com 458 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 07:49:04 error schoolloop.com 460 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 07:54:52 error schoolloop.com 462 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 08:01:05 error schoolloop.com 463 504 HTTP Error 504: Gateway Time-out
+2026-11-18 08:07:30 error schoolloop.com 465 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 08:13:29 error schoolloop.com 467 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 08:19:42 error schoolloop.com 469 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 08:25:33 error schoolloop.com 471 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 08:30:38 error schoolloop.com 471 503 HTTP Error 503: Service Unavailable
+2026-11-18 08:41:56 error schoolloop.com 473 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 08:47:01 error schoolloop.com 473 503 HTTP Error 503: Service Unavailable
+2026-11-18 08:58:04 error schoolloop.com 475 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 09:04:30 error schoolloop.com 477 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 09:09:30 == stopping: chunk time limit (rerun to resume)
