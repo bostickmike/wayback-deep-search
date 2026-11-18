@@ -682,3 +682,68 @@
 2026-11-18 16:29:21 error schoolloop.com 546 503 HTTP Error 503: Service Unavailable
 2026-11-18 16:34:26 error schoolloop.com 546 503 HTTP Error 503: Service Unavailable
 2026-11-18 16:47:33 error schoolloop.com 548 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 16:55:13 targets 265
+2026-11-18 16:55:28 done custer.mt.schoolwebpages.com rows 0
+2026-11-18 16:55:47 done lps.schoolwires.net rows 0
+2026-11-18 16:56:11 error montanacity.schoolwires.com  None <urlopen error [Errno 111] Connection refused>
+2026-11-18 17:01:36 done montanacity.schoolwires.com rows 0
+2026-11-18 17:01:42 error mt01000571.schoolwires.net  503 HTTP Error 503: Service Unavailable
+2026-11-18 17:07:20 done mt01000571.schoolwires.net rows 30
+2026-11-18 17:07:28 error mt01001320.schoolwires.net  503 HTTP Error 503: Service Unavailable
+2026-11-18 17:13:10 done mt01001320.schoolwires.net rows 0
+2026-11-18 17:13:43 done mt15000219.schoolwires.net rows 1
+2026-11-18 17:14:07 error schoolspring.com  None <urlopen error [Errno 111] Connection refused>
+2026-11-18 17:21:03 done schoolspring.com rows 394
+2026-11-18 17:21:13 done scobeyschools.com rows 84
+2026-11-18 17:21:53 error scsd2.com  None <urlopen error [Errno 111] Connection refused>
+2026-11-18 17:26:59 error scsd2.com  503 HTTP Error 503: Service Unavailable
+2026-11-18 17:37:04 error scsd2.com  503 HTTP Error 503: Service Unavailable
+2026-11-18 17:52:04 simple query failed, trying page mode scsd2.com
+2026-11-18 17:52:53 progress scsd2.com 0 / 9
+2026-11-18 17:53:17 error scsd2.com 1 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 17:59:54 error scsd2.com 4 503 HTTP Error 503: Service Unavailable
+2026-11-18 18:04:59 error scsd2.com 4 503 HTTP Error 503: Service Unavailable
+2026-11-18 18:15:46 error scsd2.com 5 503 HTTP Error 503: Service Unavailable
+2026-11-18 18:21:51 error scsd2.com 7 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 18:26:56 error scsd2.com 7 503 HTTP Error 503: Service Unavailable
+2026-11-18 18:37:01 error scsd2.com 7 503 HTTP Error 503: Service Unavailable
+2026-11-18 18:52:01 gave up scsd2.com page 7
+2026-11-18 18:52:06 error sd10.org  503 HTTP Error 503: Service Unavailable
+2026-11-18 18:52:06 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-18 19:07:07 targets 265
+2026-11-18 19:07:12 error scsd2.com  503 HTTP Error 503: Service Unavailable
+2026-11-18 19:12:40 done scsd2.com rows 881
+2026-11-18 19:12:45 error sd10.org  503 HTTP Error 503: Service Unavailable
+2026-11-18 19:17:50 error sd10.org  503 HTTP Error 503: Service Unavailable
+2026-11-18 19:27:56 error sd10.org  503 HTTP Error 503: Service Unavailable
+2026-11-18 19:27:56 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-18 19:42:56 targets 265
+2026-11-18 19:43:01 error sd10.org  503 HTTP Error 503: Service Unavailable
+2026-11-18 19:48:06 error sd10.org  503 HTTP Error 503: Service Unavailable
+2026-11-18 19:58:24 done sd10.org rows 6
+2026-11-18 19:58:51 done sgchs.com rows 377
+2026-11-18 19:59:15 error shelbypublicschools.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-18 20:04:21 error shelbypublicschools.org  503 HTTP Error 503: Service Unavailable
+2026-11-18 20:15:12 error shelbypublicschools.org  503 HTTP Error 503: Service Unavailable
+2026-11-18 20:21:12 error shelbypublicschools.org  504 HTTP Error 504: Gateway Time-out
+2026-11-18 20:21:12 simple query failed, trying page mode shelbypublicschools.org
+2026-11-18 20:22:09 progress shelbypublicschools.org 0 / 25
+2026-11-18 20:22:33 error shelbypublicschools.org 1 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 20:29:12 error shelbypublicschools.org 3 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 20:35:19 error shelbypublicschools.org 5 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 20:41:37 error shelbypublicschools.org 7 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 20:47:52 error shelbypublicschools.org 9 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 20:53:57 error shelbypublicschools.org 11 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 21:00:15 error shelbypublicschools.org 13 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 21:06:16 error shelbypublicschools.org 15 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 21:12:38 error shelbypublicschools.org 17 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 21:19:30 error shelbypublicschools.org 19 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 21:24:35 error shelbypublicschools.org 19 503 HTTP Error 503: Service Unavailable
+2026-11-18 21:35:48 error shelbypublicschools.org 21 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 21:42:29 error shelbypublicschools.org 23 None <urlopen error [Errno 111] Connection refused>
+2026-11-18 21:48:04 done shelbypublicschools.org pages 25
+2026-11-18 21:48:27 error sheridan3.com  None <urlopen error [Errno 111] Connection refused>
+2026-11-18 21:53:33 error sheridan3.com  503 HTTP Error 503: Service Unavailable
+2026-11-18 22:03:38 error sheridan3.com  503 HTTP Error 503: Service Unavailable
+2026-11-18 22:18:38 simple query failed, trying page mode sheridan3.com
+2026-11-18 22:18:38 == stopping: chunk time limit (rerun to resume)

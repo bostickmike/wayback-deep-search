@@ -57,6 +57,7 @@ crb2.org	domain	NCES website
 crook1.com	domain	NCES website
 cskt.org	domain	repo/notes URL
 culbertsonschool.com	domain	repo/notes URL
+custer.mt.schoolwebpages.com	host	NCES website
 custerschools.org	domain	repo/notes URL
 cutbankschools.net	domain	NCES website
 daytonschool.net	domain	repo/notes URL
@@ -137,6 +138,7 @@ lincolncountymt.us	domain	NCES website
 lockwoodschool.org	domain	repo/notes URL
 loloschools.org	domain	repo/notes URL
 lonerockschool.org	domain	repo/notes URL
+lps.schoolwires.net	host	NCES website
 lustregradeschool.com	domain	repo/notes URL
 lutherschool.com	domain	NCES website
 lutherschool.org	domain	repo/notes URL
@@ -147,11 +149,15 @@ mea-mft.org	domain	MEA-MFT (MT union)
 melstonepublicschools.org	domain	repo/notes URL
 miamielementary.com	domain	repo/notes URL
 monfortonschool.org	domain	repo/notes URL
+montanacity.schoolwires.com	host	NCES website
 montanadigitalacademy.org	domain	repo/notes URL
 mooreschoolmt.com	domain	repo/notes URL
 mrea-mt.org	domain	MT Rural Education Assn
 mt.org	domain	NCES website
 mt.us	domain	repo/notes URL
+mt01000571.schoolwires.net	host	NCES website
+mt01001320.schoolwires.net	host	NCES website
+mt15000219.schoolwires.net	host	NCES website
 mtbrocktonps.schoolinsites.com	host	repo/notes URL
 mtcityschool.net	domain	repo/notes URL
 mtsba.org	domain	MT School Boards Assn
@@ -194,10 +200,6 @@ rooseveltcounty.org	domain	NCES website
 ryegateschool.com	domain	NCES website
 sammt.org	domain	School Administrators of MT
 savagepublicschool.com	domain	repo/notes URL
-schoolloop.com	domain	NCES website
-schoolwebpages.com	domain	NCES website
-schoolwires.com	domain	NCES website
-schoolwires.net	domain	NCES website
 scobeyschools.com	domain	repo/notes URL
 scsd2.com	domain	repo/notes URL
 sd10.org	domain	repo/notes URL
@@ -223,6 +225,7 @@ swanvalleyelementary.org	domain	repo/notes URL
 swcsd2.org	domain	NCES website
 sweetwater1.org	domain	NCES website
 tcsd.org	domain	repo/notes URL
+te-k12.mt.schoolloop.com	host	NCES website
 teachmontana.org	domain	guess
 teachwyoming.org	domain	guess
 terryschools.org	domain	repo/notes URL
