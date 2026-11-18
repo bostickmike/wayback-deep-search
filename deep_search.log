@@ -659,3 +659,26 @@
 2026-11-18 14:18:05 error schoolloop.com 523 503 HTTP Error 503: Service Unavailable
 2026-11-18 14:28:07 error schoolloop.com 526 None <urlopen error [Errno 110] Connection timed out>
 2026-11-18 14:33:07 == stopping: chunk time limit (rerun to resume)
+2026-11-18 14:33:20 targets 262
+2026-11-18 14:34:56 error schoolloop.com  None IncompleteRead(49411 bytes read)
+2026-11-18 14:34:56 simple query failed, trying page mode schoolloop.com
+2026-11-18 14:37:39 error schoolloop.com 527 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 14:45:42 error schoolloop.com 529 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 14:52:01 error schoolloop.com 530 504 HTTP Error 504: Gateway Time-out
+2026-11-18 15:00:02 error schoolloop.com 532 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 15:07:57 error schoolloop.com 534 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 15:16:05 error schoolloop.com 536 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 15:24:16 error schoolloop.com 538 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 15:33:04 error schoolloop.com 540 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 15:41:04 error schoolloop.com 542 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 15:48:59 error schoolloop.com 544 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 15:54:04 error schoolloop.com 544 503 HTTP Error 503: Service Unavailable
+2026-11-18 16:04:09 error schoolloop.com 544 503 HTTP Error 503: Service Unavailable
+2026-11-18 16:04:09 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-18 16:19:09 targets 262
+2026-11-18 16:20:33 error schoolloop.com  None IncompleteRead(49411 bytes read)
+2026-11-18 16:20:33 simple query failed, trying page mode schoolloop.com
+2026-11-18 16:23:31 error schoolloop.com 545 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 16:29:21 error schoolloop.com 546 503 HTTP Error 503: Service Unavailable
+2026-11-18 16:34:26 error schoolloop.com 546 503 HTTP Error 503: Service Unavailable
+2026-11-18 16:47:33 error schoolloop.com 548 None <urlopen error [Errno 110] Connection timed out>
