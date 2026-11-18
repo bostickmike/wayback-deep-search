@@ -32,3 +32,10 @@ No archived page is stored. The rules are deliberately broad: the lines are cand
 GitHub Actions, `.github/workflows/wayback.yml`, started by hand (Actions tab, "Run workflow"). Each run searches
 for `minutes`, commits its progress, and starts the next run until every target is done. Commit a file named `STOP`
 to end the chain. Run only one Wayback job at a time.
+
+**2026-11-18: website companies searched by district host.** `schoolloop.com`, `schoolwebpages.com`,
+`schoolwires.com` and `schoolwires.net` had been whole-domain targets (one MT district's NCES website sits on each),
+which meant every school those companies host: `schoolloop.com` alone is 5,581 index pages, and four 5-hour runs
+got through 525 of them. They are now host targets, like SharpSchool and SchoolInSites: the 7 MT district sites
+(Trinity, Custer, Lambert, Manhattan, Montana City, Red Lodge, Sidney). The partial whole-domain School Loop rows
+are kept in `partial/` (outside `results/`, so `summarize.py` doesn't queue them).
