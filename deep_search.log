@@ -827,3 +827,84 @@
 2026-11-19 03:32:46 error tcsd.org 2 503 HTTP Error 503: Service Unavailable
 2026-11-19 03:37:51 error tcsd.org 2 503 HTTP Error 503: Service Unavailable
 2026-11-19 03:47:51 == stopping: chunk time limit (rerun to resume)
+2026-11-19 03:48:05 targets 265
+2026-11-19 03:48:27 done tcsd.org rows 628
+2026-11-19 03:48:58 done te-k12.mt.schoolloop.com rows 0
+2026-11-19 03:49:14 error teachers-teachers.com  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 03:54:51 done teachers-teachers.com rows 147
+2026-11-19 03:55:12 done teachmontana.org rows 3
+2026-11-19 03:55:28 error teachwyoming.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 04:00:58 done teachwyoming.org rows 0
+2026-11-19 04:01:19 done terryschools.org rows 79
+2026-11-19 04:01:34 error tetoncomt.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 04:07:27 done tetoncomt.org rows 171
+2026-11-19 04:07:56 done tfschools.com rows 53
+2026-11-19 04:08:11 error thompsonfalls.net  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 04:13:52 done thompsonfalls.net rows 156
+2026-11-19 04:14:28 done townsend.sharpschool.com rows 0
+2026-11-19 04:14:43 error tregoschool.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 04:19:59 done tregoschool.org rows 7
+2026-11-19 04:20:17 done troutcreekeagles.com rows 7
+2026-11-19 04:20:32 error troutcreekeagles.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 04:25:51 done troutcreekeagles.org rows 122
+2026-11-19 04:26:13 done troyk12.org rows 398
+2026-11-19 04:26:28 error uinta1.com  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 04:31:45 done uinta1.com rows 0
+2026-11-19 04:32:39 done uinta4.com rows 442
+2026-11-19 04:32:54 error ulmschools.com  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 04:38:33 done ulmschools.com rows 7
+2026-11-19 04:39:03 done valleyviewschool.net rows 0
+2026-11-19 04:39:18 error vaughnschool.com  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 04:44:35 done vaughnschool.com rows 90
+2026-11-19 04:45:43 done wasa-wy.org rows 0
+2026-11-19 04:45:49 error wcsd1.org  503 HTTP Error 503: Service Unavailable
+2026-11-19 04:51:49 error wcsd1.org  504 HTTP Error 504: Gateway Time-out
+2026-11-19 04:51:49 simple query failed, trying page mode wcsd1.org
+2026-11-19 04:51:54 error wcsd1.org  503 HTTP Error 503: Service Unavailable
+2026-11-19 04:57:58 progress wcsd1.org 0 / 2
+2026-11-19 04:58:15 error wcsd1.org 1 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 05:03:57 done wcsd1.org pages 2
+2026-11-19 05:04:06 done westglacierelementary.org rows 37
+2026-11-19 05:04:22 error weston7.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 05:10:05 done weston7.org rows 30
+2026-11-19 05:10:25 done westvalleyschool.com rows 166
+2026-11-19 05:10:40 error whitehallschools.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 05:16:26 done whitehallschools.org rows 58
+2026-11-19 05:17:16 done wibauxschools.net rows 182
+2026-11-19 05:17:40 error winnettschool.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 05:23:18 done winnettschool.org rows 11
+2026-11-19 05:35:15 error wixsite.com  504 HTTP Error 504: Gateway Time-out
+2026-11-19 05:35:15 simple query failed, trying page mode wixsite.com
+2026-11-19 05:35:55 progress wixsite.com 0 / 16066
+2026-11-19 05:36:10 error wixsite.com 1 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 05:42:23 error wixsite.com 3 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 05:49:22 error wixsite.com 5 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 05:55:37 error wixsite.com 7 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 06:01:53 error wixsite.com 9 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 06:07:37 error wixsite.com 11 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 06:12:42 error wixsite.com 11 503 HTTP Error 503: Service Unavailable
+2026-11-19 06:24:17 error wixsite.com 13 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 06:30:55 error wixsite.com 14 504 HTTP Error 504: Gateway Time-out
+2026-11-19 06:36:48 error wixsite.com 16 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 06:43:41 error wixsite.com 17 504 HTTP Error 504: Gateway Time-out
+2026-11-19 06:49:37 error wixsite.com 19 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 06:56:26 error wixsite.com 21 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 07:02:54 error wixsite.com 23 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 07:08:57 error wixsite.com 24 503 HTTP Error 503: Service Unavailable
+2026-11-19 07:14:03 error wixsite.com 24 503 HTTP Error 503: Service Unavailable
+2026-11-19 07:26:26 error wixsite.com 26 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 07:32:20 error wixsite.com 28 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 07:39:06 error wixsite.com 29 504 HTTP Error 504: Gateway Time-out
+2026-11-19 07:45:06 error wixsite.com 29 504 HTTP Error 504: Gateway Time-out
+2026-11-19 07:56:43 error wixsite.com 31 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 08:03:00 error wixsite.com 32 504 HTTP Error 504: Gateway Time-out
+2026-11-19 08:09:37 error wixsite.com 34 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 08:15:38 error wixsite.com 34 504 HTTP Error 504: Gateway Time-out
+2026-11-19 08:27:40 error wixsite.com 36 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 08:35:46 error wixsite.com 39 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 08:42:18 error wixsite.com 41 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 08:49:04 error wixsite.com 43 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 08:55:04 error wixsite.com 45 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 09:01:20 error wixsite.com 47 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 09:07:52 error wixsite.com 49 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 09:12:52 == stopping: chunk time limit (rerun to resume)
