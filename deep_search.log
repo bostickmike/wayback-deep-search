@@ -747,3 +747,83 @@
 2026-11-18 22:03:38 error sheridan3.com  503 HTTP Error 503: Service Unavailable
 2026-11-18 22:18:38 simple query failed, trying page mode sheridan3.com
 2026-11-18 22:18:38 == stopping: chunk time limit (rerun to resume)
+2026-11-18 22:18:52 targets 265
+2026-11-18 22:19:07 done sheridan3.com rows 78
+2026-11-18 22:19:40 done shieldsvalleyschools.com rows 5
+2026-11-18 22:21:55 error shoshonischools.org  None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 22:21:55 simple query failed, trying page mode shoshonischools.org
+2026-11-18 22:22:25 progress shoshonischools.org 0 / 1
+2026-11-18 22:22:25 done shoshonischools.org pages 1
+2026-11-18 22:24:39 error sleonline.org  None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 22:24:39 simple query failed, trying page mode sleonline.org
+2026-11-18 22:25:26 progress sleonline.org 0 / 44
+2026-11-18 22:27:39 error sleonline.org 1 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 22:42:32 error sleonline.org 11 503 HTTP Error 503: Service Unavailable
+2026-11-18 22:49:41 error sleonline.org 14 503 HTTP Error 503: Service Unavailable
+2026-11-18 22:55:01 error sleonline.org 15 503 HTTP Error 503: Service Unavailable
+2026-11-18 23:01:16 error sleonline.org 16 503 HTTP Error 503: Service Unavailable
+2026-11-18 23:08:29 error sleonline.org 16 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 23:23:58 error sleonline.org 20 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 23:36:16 error sleonline.org 25 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 23:47:40 error sleonline.org 30 None <urlopen error [Errno 110] Connection timed out>
+2026-11-18 23:53:16 error sleonline.org 31 503 HTTP Error 503: Service Unavailable
+2026-11-19 00:01:11 error sleonline.org 33 None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 00:07:39 error sleonline.org 36 503 HTTP Error 503: Service Unavailable
+2026-11-19 00:12:44 error sleonline.org 36 503 HTTP Error 503: Service Unavailable
+2026-11-19 00:27:26 error sleonline.org 41 503 HTTP Error 503: Service Unavailable
+2026-11-19 00:32:32 error sleonline.org 41 503 HTTP Error 503: Service Unavailable
+2026-11-19 00:45:41 error sleonline.org 43 None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 00:51:22 done sleonline.org pages 44
+2026-11-19 00:51:40 done smithvalleyschool.org rows 167
+2026-11-19 00:53:53 error snowyrangeacademy.org  None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 00:53:53 simple query failed, trying page mode snowyrangeacademy.org
+2026-11-19 00:54:23 progress snowyrangeacademy.org 0 / 2
+2026-11-19 00:56:37 error snowyrangeacademy.org 1 None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 01:01:42 error snowyrangeacademy.org 1 503 HTTP Error 503: Service Unavailable
+2026-11-19 01:12:35 done snowyrangeacademy.org pages 2
+2026-11-19 01:12:40 error somersdist29.org  503 HTTP Error 503: Service Unavailable
+2026-11-19 01:17:56 done somersdist29.org rows 39
+2026-11-19 01:18:21 done ssd3.us rows 148
+2026-11-19 01:18:49 done stanfordmtschool.com rows 2
+2026-11-19 01:18:54 error stevensvilleschools.org  503 HTTP Error 503: Service Unavailable
+2026-11-19 01:24:38 done stevensvilleschools.org rows 125
+2026-11-19 01:24:46 error stignatiusschools.org  503 HTTP Error 503: Service Unavailable
+2026-11-19 01:29:51 error stignatiusschools.org  503 HTTP Error 503: Service Unavailable
+2026-11-19 01:40:11 done stignatiusschools.org rows 84
+2026-11-19 01:40:30 done stregisschool.org rows 125
+2026-11-19 01:40:54 done sub1.org rows 150
+2026-11-19 01:43:06 error sublette9.org  None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 01:43:06 simple query failed, trying page mode sublette9.org
+2026-11-19 01:43:40 progress sublette9.org 0 / 3
+2026-11-19 01:45:54 error sublette9.org 1 None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 01:52:05 done sublette9.org pages 3
+2026-11-19 01:52:29 done svalleyk12.org rows 44
+2026-11-19 01:54:42 error swanriverschool.org  None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 01:54:42 simple query failed, trying page mode swanriverschool.org
+2026-11-19 01:55:26 progress swanriverschool.org 0 / 23
+2026-11-19 01:57:38 error swanriverschool.org 1 None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 02:03:56 error swanriverschool.org 2 504 HTTP Error 504: Gateway Time-out
+2026-11-19 02:11:07 error swanriverschool.org 6 503 HTTP Error 503: Service Unavailable
+2026-11-19 02:19:41 error swanriverschool.org 8 None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 02:25:41 error swanriverschool.org 8 504 HTTP Error 504: Gateway Time-out
+2026-11-19 02:35:47 error swanriverschool.org 8 503 HTTP Error 503: Service Unavailable
+2026-11-19 02:35:47 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-19 02:50:47 targets 265
+2026-11-19 02:51:10 done swanriverschool.org rows 444
+2026-11-19 02:51:30 done swanvalleyelementary.org rows 18
+2026-11-19 02:53:41 error swcsd2.org  None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 02:53:41 simple query failed, trying page mode swcsd2.org
+2026-11-19 02:57:14 error swcsd2.org  None <urlopen error [Errno 104] Connection reset by peer>
+2026-11-19 03:03:27 error swcsd2.org 0 504 HTTP Error 504: Gateway Time-out
+2026-11-19 03:09:01 progress swcsd2.org 0 / 4
+2026-11-19 03:09:06 error swcsd2.org 1 503 HTTP Error 503: Service Unavailable
+2026-11-19 03:16:30 error swcsd2.org 3 503 HTTP Error 503: Service Unavailable
+2026-11-19 03:21:51 done swcsd2.org pages 4
+2026-11-19 03:22:21 done sweetwater1.org rows 483
+2026-11-19 03:24:33 error tcsd.org  None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 03:24:33 simple query failed, trying page mode tcsd.org
+2026-11-19 03:25:05 progress tcsd.org 0 / 18
+2026-11-19 03:27:21 error tcsd.org 1 None <urlopen error [Errno 110] Connection timed out>
+2026-11-19 03:32:46 error tcsd.org 2 503 HTTP Error 503: Service Unavailable
+2026-11-19 03:37:51 error tcsd.org 2 503 HTTP Error 503: Service Unavailable
+2026-11-19 03:47:51 == stopping: chunk time limit (rerun to resume)
