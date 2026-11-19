@@ -908,3 +908,63 @@
 2026-11-19 09:01:20 error wixsite.com 47 None <urlopen error [Errno 111] Connection refused>
 2026-11-19 09:07:52 error wixsite.com 49 None <urlopen error [Errno 111] Connection refused>
 2026-11-19 09:12:52 == stopping: chunk time limit (rerun to resume)
+2026-11-19 09:13:03 targets 265
+2026-11-19 09:21:28 error wixsite.com  None IncompleteRead(1009786 bytes read)
+2026-11-19 09:21:28 simple query failed, trying page mode wixsite.com
+2026-11-19 09:22:24 error wixsite.com 50 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 09:28:03 progress wixsite.com 50 / 16066
+2026-11-19 09:28:44 error wixsite.com 52 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 09:35:15 error wixsite.com 54 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 09:41:26 error wixsite.com 56 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 09:47:52 error wixsite.com 58 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 09:54:09 error wixsite.com 60 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 10:00:08 error wixsite.com 62 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 10:06:08 error wixsite.com 64 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 10:12:24 error wixsite.com 66 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 10:18:54 error wixsite.com 67 504 HTTP Error 504: Gateway Time-out
+2026-11-19 10:25:09 error wixsite.com 69 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 10:31:48 error wixsite.com 71 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 10:38:47 error wixsite.com 72 504 HTTP Error 504: Gateway Time-out
+2026-11-19 10:45:36 error wixsite.com 74 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 10:51:37 error wixsite.com 74 504 HTTP Error 504: Gateway Time-out
+2026-11-19 11:02:40 error wixsite.com 76 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 11:07:45 error wixsite.com 76 503 HTTP Error 503: Service Unavailable
+2026-11-19 11:18:49 error wixsite.com 78 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 11:25:48 error wixsite.com 80 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 11:31:32 error wixsite.com 81 503 HTTP Error 503: Service Unavailable
+2026-11-19 11:37:06 error wixsite.com 82 503 HTTP Error 503: Service Unavailable
+2026-11-19 11:43:05 error wixsite.com 83 503 HTTP Error 503: Service Unavailable
+2026-11-19 11:49:28 error wixsite.com 85 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 11:55:30 error wixsite.com 87 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 12:00:35 error wixsite.com 87 503 HTTP Error 503: Service Unavailable
+2026-11-19 12:11:09 error wixsite.com 88 503 HTTP Error 503: Service Unavailable
+2026-11-19 12:17:28 error wixsite.com 90 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 12:23:32 error wixsite.com 92 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 12:30:09 error wixsite.com 94 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 12:36:31 error wixsite.com 96 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 12:42:32 error wixsite.com 98 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 12:47:37 error wixsite.com 98 503 HTTP Error 503: Service Unavailable
+2026-11-19 12:58:37 error wixsite.com 98 504 HTTP Error 504: Gateway Time-out
+2026-11-19 13:13:37 gave up wixsite.com page 98
+2026-11-19 13:14:11 done wolfcreekschool.com rows 1
+2026-11-19 13:15:01 done wolfpointschools.org rows 349
+2026-11-19 13:15:19 error wolverine.life  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 13:21:23 done wolverine.life rows 59
+2026-11-19 13:22:09 done woodmanschool.org rows 18
+2026-11-19 13:23:05 done wsba-wy.org rows 212
+2026-11-19 13:23:21 error wsd44.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-19 13:29:21 error wsd44.org  504 HTTP Error 504: Gateway Time-out
+2026-11-19 13:29:21 simple query failed, trying page mode wsd44.org
+2026-11-19 13:29:52 error wsd44.org 0 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 13:35:11 progress wsd44.org 0 / 48
+2026-11-19 13:35:53 error wsd44.org 2 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 13:42:28 error wsd44.org 4 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 13:48:06 error wsd44.org 5 503 HTTP Error 503: Service Unavailable
+2026-11-19 13:54:20 error wsd44.org 7 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 14:01:05 error wsd44.org 9 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 14:07:53 error wsd44.org 11 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 14:14:15 error wsd44.org 13 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 14:20:51 error wsd44.org 14 504 HTTP Error 504: Gateway Time-out
+2026-11-19 14:27:35 error wsd44.org 16 None <urlopen error [Errno 111] Connection refused>
+2026-11-19 14:33:35 error wsd44.org 16 504 HTTP Error 504: Gateway Time-out
+2026-11-19 14:43:35 == stopping: chunk time limit (rerun to resume)
