@@ -1147,3 +1147,61 @@
 2026-11-20 12:02:27 error wixsite.com 353 None <urlopen error [Errno 110] Connection timed out>
 2026-11-20 12:10:56 error wixsite.com 355 503 HTTP Error 503: Service Unavailable
 2026-11-20 12:17:33 == stopping: chunk time limit (rerun to resume)
+2026-11-20 12:17:45 targets 265
+2026-11-20 12:19:15 error wixsite.com  None IncompleteRead(182533 bytes read)
+2026-11-20 12:19:15 simple query failed, trying page mode wixsite.com
+2026-11-20 12:20:28 error wixsite.com 358 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 12:26:37 error wixsite.com 360 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 12:33:24 error wixsite.com 362 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 12:40:12 error wixsite.com 364 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 12:47:00 error wixsite.com 366 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 12:53:38 error wixsite.com 367 504 HTTP Error 504: Gateway Time-out
+2026-11-20 13:00:56 error wixsite.com 370 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 13:07:24 error wixsite.com 372 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 13:13:44 error wixsite.com 373 504 HTTP Error 504: Gateway Time-out
+2026-11-20 13:18:49 error wixsite.com 373 503 HTTP Error 503: Service Unavailable
+2026-11-20 13:30:19 error wixsite.com 375 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 13:35:24 error wixsite.com 375 503 HTTP Error 503: Service Unavailable
+2026-11-20 13:47:16 error wixsite.com 377 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 13:54:10 error wixsite.com 379 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 14:00:15 error wixsite.com 381 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 14:06:15 error wixsite.com 381 504 HTTP Error 504: Gateway Time-out
+2026-11-20 14:18:15 error wixsite.com 383 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 14:23:20 error wixsite.com 383 503 HTTP Error 503: Service Unavailable
+2026-11-20 14:34:56 error wixsite.com 385 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 14:41:19 error wixsite.com 387 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 14:47:30 error wixsite.com 389 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 14:54:22 error wixsite.com 391 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 15:00:22 error wixsite.com 391 504 HTTP Error 504: Gateway Time-out
+2026-11-20 15:10:27 error wixsite.com 391 503 HTTP Error 503: Service Unavailable
+2026-11-20 15:25:27 gave up wixsite.com page 391
+2026-11-20 15:26:04 done wsd44.org rows 233
+2026-11-20 15:26:09 error wyoclassical.org  503 HTTP Error 503: Service Unavailable
+2026-11-20 15:31:36 done wyoclassical.org rows 5
+2026-11-20 15:32:18 done wyoea.org rows 107
+2026-11-20 15:32:58 error wyomingboces.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-20 15:38:15 done wyomingboces.org rows 0
+2026-11-20 15:38:43 done wyomingindianschools.com rows 55
+2026-11-20 15:39:07 error yaakschool.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-20 15:44:22 done yaakschool.org rows 22
+2026-11-20 15:45:54 error ybgr.org  None <urlopen error [Errno 111] Connection refused>
+2026-11-20 15:51:23 done ybgr.org rows 8706
+2026-11-20 15:51:48 done zurichelementary17.org rows 0
+2026-11-20 15:52:12 error k12.mt.us  None <urlopen error [Errno 111] Connection refused>
+2026-11-20 15:57:47 progress k12.mt.us 0 / 2027
+2026-11-20 15:58:11 error k12.mt.us 1 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 16:04:04 error k12.mt.us 4 503 HTTP Error 503: Service Unavailable
+2026-11-20 16:10:36 error k12.mt.us 6 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 16:15:41 error k12.mt.us 6 503 HTTP Error 503: Service Unavailable
+2026-11-20 16:26:03 error k12.mt.us 7 503 HTTP Error 503: Service Unavailable
+2026-11-20 16:32:36 error k12.mt.us 9 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 16:38:37 error k12.mt.us 11 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 16:44:37 error k12.mt.us 11 504 HTTP Error 504: Gateway Time-out
+2026-11-20 16:55:30 error k12.mt.us 13 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 17:01:19 error k12.mt.us 14 503 HTTP Error 503: Service Unavailable
+2026-11-20 17:07:24 error k12.mt.us 16 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 17:13:44 error k12.mt.us 18 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 17:19:52 error k12.mt.us 20 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 17:26:01 error k12.mt.us 22 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 17:32:41 error k12.mt.us 24 None <urlopen error [Errno 111] Connection refused>
+2026-11-20 17:38:18 == stopping: chunk time limit (rerun to resume)
