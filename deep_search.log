@@ -1298,3 +1298,49 @@
 2026-11-21 04:02:23 error wixsite.com 740 503 HTTP Error 503: Service Unavailable
 2026-11-21 04:12:46 progress wixsite.com 750 / 16066
 2026-11-21 04:19:36 == stopping: chunk time limit (rerun to resume)
+2026-11-21 04:19:48 targets 265
+2026-11-21 05:02:24 error wixsite.com  None IncompleteRead(2362225 bytes read)
+2026-11-21 05:02:24 simple query failed, trying page mode wixsite.com
+2026-11-21 05:03:32 error wixsite.com 763 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 05:10:56 error wixsite.com 765 504 HTTP Error 504: Gateway Time-out
+2026-11-21 05:17:48 error wixsite.com 767 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 05:23:49 error wixsite.com 767 504 HTTP Error 504: Gateway Time-out
+2026-11-21 05:35:11 error wixsite.com 769 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 05:42:19 error wixsite.com 771 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 05:49:27 error wixsite.com 773 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 05:56:14 error wixsite.com 775 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 06:02:10 error wixsite.com 776 503 HTTP Error 503: Service Unavailable
+2026-11-21 06:07:16 error wixsite.com 776 503 HTTP Error 503: Service Unavailable
+2026-11-21 06:19:02 error wixsite.com 778 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 06:25:10 error wixsite.com 780 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 06:31:43 error wixsite.com 781 504 HTTP Error 504: Gateway Time-out
+2026-11-21 06:37:45 error wixsite.com 783 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 06:44:07 error wixsite.com 785 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 06:50:50 error wixsite.com 787 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 06:57:31 error wixsite.com 790 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 07:03:59 error wixsite.com 792 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 07:09:20 error wixsite.com 793 503 HTTP Error 503: Service Unavailable
+2026-11-21 07:15:54 error wixsite.com 795 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 07:21:54 error wixsite.com 795 504 HTTP Error 504: Gateway Time-out
+2026-11-21 07:31:59 error wixsite.com 795 503 HTTP Error 503: Service Unavailable
+2026-11-21 07:46:59 gave up wixsite.com page 795
+2026-11-21 07:48:02 error k12.mt.us 26 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 07:53:34 error k12.mt.us 27 503 HTTP Error 503: Service Unavailable
+2026-11-21 08:00:13 error k12.mt.us 28 504 HTTP Error 504: Gateway Time-out
+2026-11-21 08:06:11 error k12.mt.us 30 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 08:12:31 error k12.mt.us 32 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 08:18:34 error k12.mt.us 34 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 08:25:16 error k12.mt.us 36 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 08:31:14 error k12.mt.us 38 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 08:37:36 error k12.mt.us 40 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 08:43:07 error k12.mt.us 41 503 HTTP Error 503: Service Unavailable
+2026-11-21 08:49:54 error k12.mt.us 43 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 08:56:03 error k12.mt.us 45 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 09:03:01 error k12.mt.us 47 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 09:10:05 error k12.mt.us 50 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 09:15:17 progress k12.mt.us 50 / 2027
+2026-11-21 09:15:51 error k12.mt.us 52 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 09:22:26 error k12.mt.us 54 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 09:28:40 error k12.mt.us 56 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 09:34:38 error k12.mt.us 58 None <urlopen error [Errno 111] Connection refused>
+2026-11-21 09:40:27 == stopping: chunk time limit (rerun to resume)
