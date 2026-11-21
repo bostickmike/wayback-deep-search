@@ -1254,3 +1254,47 @@
 2026-11-20 22:42:37 error wixsite.com 543 504 HTTP Error 504: Gateway Time-out
 2026-11-20 22:47:42 error wixsite.com 543 503 HTTP Error 503: Service Unavailable
 2026-11-20 22:58:56 == stopping: chunk time limit (rerun to resume)
+2026-11-20 22:59:19 targets 265
+2026-11-20 23:05:10 error wixsite.com  None IncompleteRead(1240941 bytes read)
+2026-11-20 23:05:10 simple query failed, trying page mode wixsite.com
+2026-11-20 23:07:43 progress wixsite.com 550 / 16066
+2026-11-20 23:11:31 error wixsite.com 557 503 HTTP Error 503: Service Unavailable
+2026-11-20 23:19:50 error wixsite.com 562 504 HTTP Error 504: Gateway Time-out
+2026-11-20 23:34:15 error wixsite.com 582 503 HTTP Error 503: Service Unavailable
+2026-11-20 23:39:58 error wixsite.com 584 503 HTTP Error 503: Service Unavailable
+2026-11-20 23:45:03 error wixsite.com 584 503 HTTP Error 503: Service Unavailable
+2026-11-21 00:03:03 error wixsite.com 600 503 HTTP Error 503: Service Unavailable
+2026-11-21 00:08:53 progress wixsite.com 600 / 16066
+2026-11-21 00:08:58 error wixsite.com 601 503 HTTP Error 503: Service Unavailable
+2026-11-21 00:16:27 error wixsite.com 605 503 HTTP Error 503: Service Unavailable
+2026-11-21 00:21:32 error wixsite.com 605 503 HTTP Error 503: Service Unavailable
+2026-11-21 00:32:32 error wixsite.com 605 504 HTTP Error 504: Gateway Time-out
+2026-11-21 00:32:32 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-21 00:47:32 targets 265
+2026-11-21 00:48:32 error wixsite.com  504 HTTP Error 504: Gateway Time-out
+2026-11-21 00:48:32 simple query failed, trying page mode wixsite.com
+2026-11-21 00:50:20 error wixsite.com 607 503 HTTP Error 503: Service Unavailable
+2026-11-21 00:58:14 error wixsite.com 613 503 HTTP Error 503: Service Unavailable
+2026-11-21 01:06:46 error wixsite.com 620 503 HTTP Error 503: Service Unavailable
+2026-11-21 01:12:56 error wixsite.com 622 503 HTTP Error 503: Service Unavailable
+2026-11-21 01:18:01 error wixsite.com 622 503 HTTP Error 503: Service Unavailable
+2026-11-21 01:31:59 error wixsite.com 629 504 HTTP Error 504: Gateway Time-out
+2026-11-21 01:39:06 error wixsite.com 631 504 HTTP Error 504: Gateway Time-out
+2026-11-21 01:46:16 error wixsite.com 636 503 HTTP Error 503: Service Unavailable
+2026-11-21 01:56:59 progress wixsite.com 650 / 16066
+2026-11-21 02:00:03 error wixsite.com 656 504 HTTP Error 504: Gateway Time-out
+2026-11-21 02:11:25 error wixsite.com 668 503 HTTP Error 503: Service Unavailable
+2026-11-21 02:17:16 error wixsite.com 668 502 HTTP Error 502: Bad Gateway
+2026-11-21 02:29:00 error wixsite.com 669 504 HTTP Error 504: Gateway Time-out
+2026-11-21 02:34:05 error wixsite.com 669 503 HTTP Error 503: Service Unavailable
+2026-11-21 02:56:28 error wixsite.com 692 503 HTTP Error 503: Service Unavailable
+2026-11-21 03:01:33 error wixsite.com 692 503 HTTP Error 503: Service Unavailable
+2026-11-21 03:12:16 error wixsite.com 694 503 HTTP Error 503: Service Unavailable
+2026-11-21 03:17:49 error wixsite.com 695 503 HTTP Error 503: Service Unavailable
+2026-11-21 03:25:25 progress wixsite.com 700 / 16066
+2026-11-21 03:35:27 error wixsite.com 719 502 HTTP Error 502: Bad Gateway
+2026-11-21 03:44:21 error wixsite.com 726 504 HTTP Error 504: Gateway Time-out
+2026-11-21 03:51:05 error wixsite.com 729 504 HTTP Error 504: Gateway Time-out
+2026-11-21 04:02:23 error wixsite.com 740 503 HTTP Error 503: Service Unavailable
+2026-11-21 04:12:46 progress wixsite.com 750 / 16066
+2026-11-21 04:19:36 == stopping: chunk time limit (rerun to resume)
