@@ -1441,3 +1441,48 @@
 2026-11-21 20:15:29 error wixsite.com 896 None <urlopen error [Errno 110] Connection timed out>
 2026-11-21 20:21:29 error wixsite.com 896 504 HTTP Error 504: Gateway Time-out
 2026-11-21 20:31:29 == stopping: chunk time limit (rerun to resume)
+2026-11-21 20:31:42 targets 265
+2026-11-21 20:35:43 error wixsite.com  None IncompleteRead(501245 bytes read)
+2026-11-21 20:35:43 simple query failed, trying page mode wixsite.com
+2026-11-21 20:38:33 error wixsite.com 897 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 20:46:41 error wixsite.com 899 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 20:51:46 error wixsite.com 899 503 HTTP Error 503: Service Unavailable
+2026-11-21 21:02:54 progress wixsite.com 900 / 16066
+2026-11-21 21:05:07 error wixsite.com 901 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 21:10:31 error wixsite.com 902 503 HTTP Error 503: Service Unavailable
+2026-11-21 21:16:29 error wixsite.com 903 503 HTTP Error 503: Service Unavailable
+2026-11-21 21:22:31 error wixsite.com 903 504 HTTP Error 504: Gateway Time-out
+2026-11-21 21:36:18 error wixsite.com 905 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 21:41:24 error wixsite.com 905 503 HTTP Error 503: Service Unavailable
+2026-11-21 21:55:05 error wixsite.com 907 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 22:05:11 error wixsite.com 910 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 22:10:16 error wixsite.com 910 503 HTTP Error 503: Service Unavailable
+2026-11-21 22:23:33 error wixsite.com 912 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 22:34:04 error wixsite.com 915 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 22:43:00 error wixsite.com 917 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 22:49:53 error wixsite.com 918 504 HTTP Error 504: Gateway Time-out
+2026-11-21 22:57:49 error wixsite.com 920 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 23:06:17 error wixsite.com 922 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 23:12:17 error wixsite.com 922 504 HTTP Error 504: Gateway Time-out
+2026-11-21 23:25:20 error wixsite.com 924 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 23:33:03 error wixsite.com 926 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 23:38:08 error wixsite.com 926 503 HTTP Error 503: Service Unavailable
+2026-11-21 23:51:12 error wixsite.com 928 None <urlopen error [Errno 110] Connection timed out>
+2026-11-21 23:57:12 error wixsite.com 928 504 HTTP Error 504: Gateway Time-out
+2026-11-22 00:07:17 error wixsite.com 928 503 HTTP Error 503: Service Unavailable
+2026-11-22 00:07:17 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-22 00:22:18 targets 265
+2026-11-22 00:25:38 error wixsite.com  None IncompleteRead(384908 bytes read)
+2026-11-22 00:25:38 simple query failed, trying page mode wixsite.com
+2026-11-22 00:25:43 error wixsite.com  503 HTTP Error 503: Service Unavailable
+2026-11-22 00:30:48 error wixsite.com  503 HTTP Error 503: Service Unavailable
+2026-11-22 00:46:38 error wixsite.com 931 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 00:55:06 error wixsite.com 933 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 01:03:38 error wixsite.com 935 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 01:10:11 error wixsite.com 936 504 HTTP Error 504: Gateway Time-out
+2026-11-22 01:15:16 error wixsite.com 936 503 HTTP Error 503: Service Unavailable
+2026-11-22 01:28:45 error wixsite.com 939 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 01:37:01 error wixsite.com 941 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 01:45:53 error wixsite.com 943 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 01:53:53 error wixsite.com 945 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 01:58:53 == stopping: chunk time limit (rerun to resume)
