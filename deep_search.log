@@ -1623,3 +1623,55 @@
 2026-11-22 17:56:22 error k12.mt.us 106 None <urlopen error [Errno 111] Connection refused>
 2026-11-22 18:02:58 error k12.mt.us 108 None <urlopen error [Errno 111] Connection refused>
 2026-11-22 18:07:58 == stopping: chunk time limit (rerun to resume)
+2026-11-22 18:08:11 targets 265
+2026-11-22 18:09:11 error wixsite.com  504 HTTP Error 504: Gateway Time-out
+2026-11-22 18:09:11 simple query failed, trying page mode wixsite.com
+2026-11-22 18:10:47 error wixsite.com 1222 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 18:16:56 error wixsite.com 1224 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 18:23:12 error wixsite.com 1226 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 18:29:32 error wixsite.com 1228 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 18:35:51 error wixsite.com 1230 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 18:42:13 error wixsite.com 1232 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 18:48:50 error wixsite.com 1233 504 HTTP Error 504: Gateway Time-out
+2026-11-22 18:55:41 error wixsite.com 1234 504 HTTP Error 504: Gateway Time-out
+2026-11-22 19:01:37 error wixsite.com 1235 503 HTTP Error 503: Service Unavailable
+2026-11-22 19:07:11 error wixsite.com 1236 503 HTTP Error 503: Service Unavailable
+2026-11-22 19:13:11 error wixsite.com 1236 504 HTTP Error 504: Gateway Time-out
+2026-11-22 19:24:49 error wixsite.com 1238 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 19:30:23 error wixsite.com 1239 503 HTTP Error 503: Service Unavailable
+2026-11-22 19:37:01 error wixsite.com 1240 504 HTTP Error 504: Gateway Time-out
+2026-11-22 19:42:06 error wixsite.com 1240 503 HTTP Error 503: Service Unavailable
+2026-11-22 19:53:16 error wixsite.com 1242 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 19:59:36 error wixsite.com 1244 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 20:05:54 error wixsite.com 1246 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 20:12:21 error wixsite.com 1247 504 HTTP Error 504: Gateway Time-out
+2026-11-22 20:19:00 error wixsite.com 1249 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 20:25:02 progress wixsite.com 1250 / 16066
+2026-11-22 20:25:42 error wixsite.com 1251 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 20:32:09 error wixsite.com 1253 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 20:38:09 error wixsite.com 1253 504 HTTP Error 504: Gateway Time-out
+2026-11-22 20:49:21 error wixsite.com 1255 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 20:55:32 error wixsite.com 1257 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 21:02:27 error wixsite.com 1259 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 21:07:33 error wixsite.com 1259 503 HTTP Error 503: Service Unavailable
+2026-11-22 21:19:12 error wixsite.com 1261 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 21:24:17 error wixsite.com 1261 503 HTTP Error 503: Service Unavailable
+2026-11-22 21:35:21 error wixsite.com 1263 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 21:41:58 error wixsite.com 1266 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 21:48:02 error wixsite.com 1268 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 21:55:06 error wixsite.com 1270 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 22:01:13 error wixsite.com 1272 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 22:07:22 error wixsite.com 1274 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 22:13:29 error wixsite.com 1276 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 22:19:36 error wixsite.com 1278 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 22:25:51 error wixsite.com 1280 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 22:32:16 error wixsite.com 1282 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 22:38:20 error wixsite.com 1284 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 22:44:29 error wixsite.com 1286 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 22:51:27 error wixsite.com 1288 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 22:57:27 error wixsite.com 1290 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 23:03:27 error wixsite.com 1290 504 HTTP Error 504: Gateway Time-out
+2026-11-22 23:15:17 error wixsite.com 1293 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 23:21:59 error wixsite.com 1295 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 23:28:23 error wixsite.com 1297 None <urlopen error [Errno 111] Connection refused>
+2026-11-22 23:33:23 == stopping: chunk time limit (rerun to resume)
