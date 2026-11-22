@@ -1528,3 +1528,49 @@
 2026-11-22 07:08:31 error wixsite.com 1147 503 HTTP Error 503: Service Unavailable
 2026-11-22 07:14:57 error wixsite.com 1149 503 HTTP Error 503: Service Unavailable
 2026-11-22 07:19:57 == stopping: chunk time limit (rerun to resume)
+2026-11-22 07:20:09 targets 265
+2026-11-22 07:20:14 error wixsite.com  503 HTTP Error 503: Service Unavailable
+2026-11-22 07:34:23 error wixsite.com  None IncompleteRead(1191412 bytes read)
+2026-11-22 07:34:23 simple query failed, trying page mode wixsite.com
+2026-11-22 07:37:04 error wixsite.com 1150 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 07:43:02 progress wixsite.com 1150 / 16066
+2026-11-22 07:46:01 error wixsite.com 1152 504 HTTP Error 504: Gateway Time-out
+2026-11-22 07:51:06 error wixsite.com 1152 503 HTTP Error 503: Service Unavailable
+2026-11-22 08:04:19 error wixsite.com 1154 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 08:12:26 error wixsite.com 1156 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 08:20:46 error wixsite.com 1158 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 08:28:41 error wixsite.com 1160 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 08:37:21 error wixsite.com 1162 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 08:42:45 error wixsite.com 1163 503 HTTP Error 503: Service Unavailable
+2026-11-22 08:48:46 error wixsite.com 1163 504 HTTP Error 504: Gateway Time-out
+2026-11-22 09:00:20 error wixsite.com 1164 504 HTTP Error 504: Gateway Time-out
+2026-11-22 09:05:55 error wixsite.com 1165 503 HTTP Error 503: Service Unavailable
+2026-11-22 09:14:42 error wixsite.com 1167 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 09:24:56 error wixsite.com 1171 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 09:33:32 error wixsite.com 1173 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 09:41:19 error wixsite.com 1175 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 09:49:31 error wixsite.com 1177 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 09:54:36 error wixsite.com 1177 503 HTTP Error 503: Service Unavailable
+2026-11-22 10:10:04 error wixsite.com 1181 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 10:18:07 error wixsite.com 1183 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 10:24:07 error wixsite.com 1183 504 HTTP Error 504: Gateway Time-out
+2026-11-22 10:37:34 error wixsite.com 1185 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 10:46:10 error wixsite.com 1187 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 10:54:26 error wixsite.com 1189 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 11:00:26 error wixsite.com 1189 504 HTTP Error 504: Gateway Time-out
+2026-11-22 11:13:12 error wixsite.com 1191 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 11:21:16 error wixsite.com 1193 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 11:28:59 error wixsite.com 1195 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 11:34:46 error wixsite.com 1196 503 HTTP Error 503: Service Unavailable
+2026-11-22 11:41:50 error wixsite.com 1197 504 HTTP Error 504: Gateway Time-out
+2026-11-22 11:49:52 error wixsite.com 1199 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 11:55:52 error wixsite.com 1199 504 HTTP Error 504: Gateway Time-out
+2026-11-22 12:06:52 error wixsite.com 1199 504 HTTP Error 504: Gateway Time-out
+2026-11-22 12:06:52 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-22 12:21:52 targets 265
+2026-11-22 12:30:27 error wixsite.com  None IncompleteRead(1257491 bytes read)
+2026-11-22 12:30:27 simple query failed, trying page mode wixsite.com
+2026-11-22 12:33:29 error wixsite.com 1200 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 12:38:55 progress wixsite.com 1200 / 16066
+2026-11-22 12:41:37 error wixsite.com 1202 None <urlopen error [Errno 110] Connection timed out>
+2026-11-22 12:46:37 == stopping: chunk time limit (rerun to resume)
