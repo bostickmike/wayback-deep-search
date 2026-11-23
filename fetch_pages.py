@@ -92,12 +92,19 @@ os.makedirs('extracted/pages', exist_ok=True); os.makedirs('extracted/lines', ex
 PCOLS = ['target', 'state', 'class', 'timestamp', 'original', 'mimetype', 'digest', 'http_status', 'bytes', 'sha1',
          'title', 'text_chars', 'job_lines', 'pay_lines', 'same_content_as', 'note']
 LCOLS = ['target', 'class', 'timestamp', 'original', 'kind', 'text', 'date_in_text', 'link']
+# Archived URLs can carry credentials in their query (a Google OAuth token in a k12.mt.us link stopped the 11-23
+# push at GitHub's secret scanning). The value is replaced before a row is saved; the parameter name stays.
+SECRET_PARAM = re.compile(r'(?i)([?&;](?:access_token|id_token|refresh_token|oauth_token|token|api_?key|sig|signature|'
+                          r'password|passwd|pwd|secret|client_secret|auth)=)[^&#;\s"\'<>]+')
+GOOGLE_TOKEN = re.compile(r'ya29\.[0-9A-Za-z_\-]{20,}')
+def mask_secrets(s):
+    return GOOGLE_TOKEN.sub('ya29.REDACTED', SECRET_PARAM.sub(r'\1REDACTED', s))
 def append(path, cols, rows):
     new = not os.path.exists(path)
     with open(path, 'a', newline='') as out:
         w = csv.writer(out, delimiter='\t', lineterminator='\n')
         if new: w.writerow(cols)
-        for r in rows: w.writerow([str(r.get(c, '')).replace('\t', ' ').replace('\n', ' ') for c in cols])
+        for r in rows: w.writerow([mask_secrets(str(r.get(c, ''))).replace('\t', ' ').replace('\n', ' ') for c in cols])
 failed = {}
 if os.path.exists('failed.tsv'):
     for l in open('failed.tsv'): u = l.split('\t')[0].strip(); failed[u] = failed.get(u, 0) + 1

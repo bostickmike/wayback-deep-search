@@ -126,12 +126,19 @@ def cdx(q, too_big_ok=False):
 def base_q(t, m, rx):
     return [('url', t), ('matchType', m), ('output', 'json'), ('fl', 'urlkey,timestamp,original,mimetype,digest,length'),
             ('filter', 'statuscode:200'), ('filter', f'original:(?i){rx}'), ('filter', FILTERS[2]), ('collapse', 'digest')]
+# Archived URLs can carry credentials in their query (a Google OAuth token in a k12.mt.us link stopped the 11-23
+# push at GitHub's secret scanning). The value is replaced before a row is saved; the parameter name stays.
+SECRET_PARAM = re.compile(r'(?i)([?&;](?:access_token|id_token|refresh_token|oauth_token|token|api_?key|sig|signature|'
+                          r'password|passwd|pwd|secret|client_secret|auth)=)[^&#;\s"\'<>]+')
+GOOGLE_TOKEN = re.compile(r'ya29\.[0-9A-Za-z_\-]{20,}')
+def mask_secrets(s):
+    return GOOGLE_TOKEN.sub('ya29.REDACTED', SECRET_PARAM.sub(r'\1REDACTED', s))
 def fname(t): return f"results/{re.sub(r'[^a-z0-9]+', '_', t)}.tsv"
 def write_rows(t, rows, mode):
     new = mode == 'w' or not os.path.exists(fname(t))
     with open(fname(t), 'a' if not new else 'w') as out:
         if new: out.write('urlkey\ttimestamp\toriginal\tmimetype\tdigest\tlength\n')
-        for r in rows: out.write('\t'.join(r) + '\n')
+        for r in rows: out.write(mask_secrets('\t'.join(r)) + '\n')
 BIG = {'k12.mt.us', 'k12.wy.us', 'opi.state.mt.us', 'opi.mt.gov'}   # page mode (showNumPages: 2027, 130, 1185, 3210)
 def npages(t, m):
     b = cdx([('url', t), ('matchType', m), ('showNumPages', 'true')])

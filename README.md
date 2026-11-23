@@ -1,5 +1,9 @@
 # Wayback deep search: Montana and Wyoming school jobs
 
+Part of the [Montana](https://github.com/bostickmike/Montana-Education-Jobs-Dashboard) and
+[Wyoming](https://github.com/bostickmike/Wyoming-Education-Jobs-Dashboard) Education Jobs Dashboards: the
+dashboards start in 2024 (Wyoming) and 2026 (Montana), and this looks for what came before.
+
 A catalog of what the Internet Archive's Wayback Machine holds about past K-12 job postings and pay in Montana and
 Wyoming: for each district website, the old shared state domains (k12.mt.us, k12.wy.us), the state education
 agencies and statewide associations, every archived URL that looks job- or pay-related.
@@ -42,5 +46,11 @@ are kept in `partial/` (outside `results/`, so `summarize.py` doesn't queue them
 
 **2026-11-22: `wixsite.com` too.** As a whole-domain target it was 16,066 index pages (every Wix site), about 50 a
 5-hour run with many 503s/refusals, so the chain would have spent weeks there. The one MT/WY district site on it,
-Absarokee (`hgunderson6.wixsite.com`), is now a host target. The partial whole-domain rows
-(`results/wixsite_com.tsv`, 1,350 index pages in) are to be moved to `partial/` between runs.
+Absarokee (`hgunderson6.wixsite.com`), is now a host target. The partial whole-domain rows (1,350 index pages in)
+are in `partial/wixsite_com_whole_domain_pages_0-1350.tsv`.
+
+**2026-11-23: credentials in archived URLs are masked.** An archived k12.mt.us link carried a Google OAuth token, and
+GitHub's secret scanning refused that run's push, which stopped the chain. `deep_search.py` and `fetch_pages.py` now
+replace the value of credential parameters (`access_token`, `token`, `api_key`, `signature`, `password`, `secret`,
+...) and any `ya29.` token with `REDACTED` before a row is saved; the parameter name stays. Session IDs and Google's
+old `key=` document IDs are kept: they aren't credentials, and the capture can't be fetched without them.
