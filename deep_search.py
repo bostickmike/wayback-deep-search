@@ -48,8 +48,9 @@ NOT_DISTRICT = re.compile(r'wdh\.state|cathedralhome|stjoseph|redtopmeadows|dfs\
                           r'jotform|lander\.k12\.nv|northidaho|opendatacommons|taleo|studentaidcalculator|neoed|submittable|'
                           r'westernwyoming\.edu|wyotech|wyva\.k12\.com|^x\.edu|youtu\.be|allthrive|mt\.gov$|state\.mt\.us$', re.I)
 # Website companies: search the district's own host, not the company's whole domain (schoolloop.com alone is 5,581
-# index pages, every School Loop school in the US; 2026-11-18).
-VENDOR_HOSTED = re.compile(r'\.(sharpschool|schoolinsites|schoolloop|schoolwebpages|schoolwires)\.(com|net)$')
+# index pages, every School Loop school in the US; 2026-11-18). wixsite.com: 16,066 index pages, every Wix site in
+# the world, ~50 a 5-hour run; the one MT/WY district on it is Absarokee (hgunderson6.wixsite.com; 2026-11-22).
+VENDOR_HOSTED = re.compile(r'\.(sharpschool|schoolinsites|schoolloop|schoolwebpages|schoolwires|wixsite)\.(com|net)$')
 def target_of(host):
     h = re.sub(r'^www\.', '', host.lower().strip().strip('/'))
     h = re.sub(r'^https?://', '', h).split('/')[0].split(':')[0]

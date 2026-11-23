@@ -39,3 +39,8 @@ which meant every school those companies host: `schoolloop.com` alone is 5,581 i
 got through 525 of them. They are now host targets, like SharpSchool and SchoolInSites: the 7 MT district sites
 (Trinity, Custer, Lambert, Manhattan, Montana City, Red Lodge, Sidney). The partial whole-domain School Loop rows
 are kept in `partial/` (outside `results/`, so `summarize.py` doesn't queue them).
+
+**2026-11-22: `wixsite.com` too.** As a whole-domain target it was 16,066 index pages (every Wix site), about 50 a
+5-hour run with many 503s/refusals, so the chain would have spent weeks there. The one MT/WY district site on it,
+Absarokee (`hgunderson6.wixsite.com`), is now a host target. The partial whole-domain rows
+(`results/wixsite_com.tsv`, 1,350 index pages in) are to be moved to `partial/` between runs.
