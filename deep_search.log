@@ -2025,3 +2025,51 @@
 2026-11-25 04:09:44 error k12.mt.us 438 None <urlopen error [Errno 111] Connection refused>
 2026-11-25 04:16:10 error k12.mt.us 440 None <urlopen error [Errno 111] Connection refused>
 2026-11-25 04:21:10 == stopping: chunk time limit (rerun to resume)
+2026-11-25 04:21:22 targets 265
+2026-11-25 04:22:07 error k12.mt.us 441 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 04:28:47 error k12.mt.us 443 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 04:33:52 error k12.mt.us 443 503 HTTP Error 503: Service Unavailable
+2026-11-25 04:44:49 error k12.mt.us 445 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 04:49:54 error k12.mt.us 445 503 HTTP Error 503: Service Unavailable
+2026-11-25 05:02:08 error k12.mt.us 447 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 05:07:13 error k12.mt.us 447 503 HTTP Error 503: Service Unavailable
+2026-11-25 05:18:08 error k12.mt.us 449 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 05:24:08 error k12.mt.us 449 504 HTTP Error 504: Gateway Time-out
+2026-11-25 05:34:13 error k12.mt.us 449 503 HTTP Error 503: Service Unavailable
+2026-11-25 05:49:13 gave up k12.mt.us page 449
+2026-11-25 05:49:18 error k12.wy.us  503 HTTP Error 503: Service Unavailable
+2026-11-25 05:49:18 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-25 06:04:18 targets 265
+2026-11-25 06:04:56 error k12.mt.us 450 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 06:11:03 progress k12.mt.us 450 / 2027
+2026-11-25 06:11:40 error k12.mt.us 452 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 06:17:53 error k12.mt.us 454 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 06:23:50 error k12.mt.us 456 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 06:30:22 error k12.mt.us 458 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 06:37:27 error k12.mt.us 460 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 06:43:27 error k12.mt.us 460 504 HTTP Error 504: Gateway Time-out
+2026-11-25 06:54:28 error k12.mt.us 460 504 HTTP Error 504: Gateway Time-out
+2026-11-25 07:09:28 gave up k12.mt.us page 460
+2026-11-25 07:09:33 error k12.wy.us  503 HTTP Error 503: Service Unavailable
+2026-11-25 07:09:33 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-25 07:24:33 targets 265
+2026-11-25 07:25:33 error k12.mt.us 461 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 07:30:38 error k12.mt.us 461 503 HTTP Error 503: Service Unavailable
+2026-11-25 07:40:43 error k12.mt.us 461 503 HTTP Error 503: Service Unavailable
+2026-11-25 07:55:43 gave up k12.mt.us page 461
+2026-11-25 07:56:56 error k12.wy.us 27 504 HTTP Error 504: Gateway Time-out
+2026-11-25 08:03:05 error k12.wy.us 29 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 08:10:05 error k12.wy.us 33 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 08:15:10 error k12.wy.us 33 503 HTTP Error 503: Service Unavailable
+2026-11-25 08:25:15 error k12.wy.us 33 503 HTTP Error 503: Service Unavailable
+2026-11-25 08:40:15 gave up k12.wy.us page 33
+2026-11-25 08:41:30 error opi.mt.gov 17 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 08:47:07 error opi.mt.gov 18 503 HTTP Error 503: Service Unavailable
+2026-11-25 08:53:42 error opi.mt.gov 20 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 08:59:18 error opi.mt.gov 21 503 HTTP Error 503: Service Unavailable
+2026-11-25 09:06:24 error opi.mt.gov 22 504 HTTP Error 504: Gateway Time-out
+2026-11-25 09:12:24 error opi.mt.gov 22 504 HTTP Error 504: Gateway Time-out
+2026-11-25 09:23:43 error opi.mt.gov 24 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 09:30:20 error opi.mt.gov 26 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 09:36:45 error opi.mt.gov 28 None <urlopen error [Errno 111] Connection refused>
+2026-11-25 09:41:45 == stopping: chunk time limit (rerun to resume)
