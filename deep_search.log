@@ -2323,3 +2323,53 @@
 2026-11-26 12:29:45 error k12.mt.us 774 None <urlopen error [Errno 111] Connection refused>
 2026-11-26 12:36:14 error k12.mt.us 776 None <urlopen error [Errno 111] Connection refused>
 2026-11-26 12:41:14 == stopping: chunk time limit (rerun to resume)
+2026-11-26 12:41:28 targets 265
+2026-11-26 12:41:33 error k12.mt.us  503 HTTP Error 503: Service Unavailable
+2026-11-26 12:47:28 error k12.mt.us 777 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 12:53:38 error k12.mt.us 779 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 12:58:43 error k12.mt.us 779 503 HTTP Error 503: Service Unavailable
+2026-11-26 13:08:48 error k12.mt.us 779 503 HTTP Error 503: Service Unavailable
+2026-11-26 13:23:48 gave up k12.mt.us page 779
+2026-11-26 13:24:35 error k12.wy.us 44 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 13:30:47 error k12.wy.us 46 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 13:35:52 error k12.wy.us 46 503 HTTP Error 503: Service Unavailable
+2026-11-26 13:47:06 error k12.wy.us 48 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 13:52:11 error k12.wy.us 48 503 HTTP Error 503: Service Unavailable
+2026-11-26 14:02:16 error k12.wy.us 48 503 HTTP Error 503: Service Unavailable
+2026-11-26 14:17:16 gave up k12.wy.us page 48
+2026-11-26 14:18:14 error opi.mt.gov 29 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 14:24:25 error opi.mt.gov 31 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 14:30:29 error opi.mt.gov 33 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 14:37:17 error opi.mt.gov 35 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 14:42:46 error opi.mt.gov 36 503 HTTP Error 503: Service Unavailable
+2026-11-26 14:47:51 error opi.mt.gov 36 503 HTTP Error 503: Service Unavailable
+2026-11-26 14:58:41 error opi.mt.gov 37 503 HTTP Error 503: Service Unavailable
+2026-11-26 15:05:16 error opi.mt.gov 38 504 HTTP Error 504: Gateway Time-out
+2026-11-26 15:11:28 error opi.mt.gov 40 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 15:17:37 error opi.mt.gov 42 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 15:22:59 error opi.mt.gov 43 503 HTTP Error 503: Service Unavailable
+2026-11-26 15:29:24 error opi.mt.gov 45 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 15:35:30 error opi.mt.gov 47 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 15:41:38 error opi.mt.gov 49 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 15:47:56 progress opi.mt.gov 50 / 3210
+2026-11-26 15:48:11 error opi.mt.gov 51 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 15:54:21 error opi.mt.gov 53 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 16:00:21 error opi.mt.gov 53 504 HTTP Error 504: Gateway Time-out
+2026-11-26 16:10:55 error opi.mt.gov 54 503 HTTP Error 503: Service Unavailable
+2026-11-26 16:17:19 error opi.mt.gov 56 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 16:23:23 error opi.mt.gov 58 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 16:29:36 error opi.mt.gov 60 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 16:36:46 error opi.mt.gov 62 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 16:43:06 error opi.mt.gov 63 504 HTTP Error 504: Gateway Time-out
+2026-11-26 16:49:38 error opi.mt.gov 65 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 16:55:26 error opi.mt.gov 67 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 17:01:57 error opi.mt.gov 69 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 17:08:12 error opi.mt.gov 70 504 HTTP Error 504: Gateway Time-out
+2026-11-26 17:14:17 error opi.mt.gov 72 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 17:20:39 error opi.mt.gov 74 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 17:25:44 error opi.mt.gov 74 503 HTTP Error 503: Service Unavailable
+2026-11-26 17:36:52 error opi.mt.gov 76 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 17:41:57 error opi.mt.gov 76 503 HTTP Error 503: Service Unavailable
+2026-11-26 17:52:51 error opi.mt.gov 78 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 17:59:35 error opi.mt.gov 80 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 18:04:35 == stopping: chunk time limit (rerun to resume)
