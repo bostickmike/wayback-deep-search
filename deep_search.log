@@ -2272,3 +2272,54 @@
 2026-11-26 07:09:52 error k12.mt.us 705 503 HTTP Error 503: Service Unavailable
 2026-11-26 07:15:27 error k12.mt.us 706 503 HTTP Error 503: Service Unavailable
 2026-11-26 07:20:27 == stopping: chunk time limit (rerun to resume)
+2026-11-26 07:20:38 targets 265
+2026-11-26 07:22:11 error k12.mt.us 707 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 07:28:35 error k12.mt.us 709 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 07:35:33 error k12.mt.us 711 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 07:41:52 error k12.mt.us 713 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 07:48:05 error k12.mt.us 715 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 07:53:10 error k12.mt.us 715 503 HTTP Error 503: Service Unavailable
+2026-11-26 08:04:12 error k12.mt.us 717 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 08:09:18 error k12.mt.us 717 503 HTTP Error 503: Service Unavailable
+2026-11-26 08:20:18 error k12.mt.us 719 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 08:26:56 error k12.mt.us 721 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 08:32:26 error k12.mt.us 722 503 HTTP Error 503: Service Unavailable
+2026-11-26 08:37:31 error k12.mt.us 722 503 HTTP Error 503: Service Unavailable
+2026-11-26 08:48:32 error k12.mt.us 722 504 HTTP Error 504: Gateway Time-out
+2026-11-26 08:48:32 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-26 09:03:32 targets 265
+2026-11-26 09:05:14 error k12.mt.us 723 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 09:11:32 error k12.mt.us 725 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 09:17:59 error k12.mt.us 727 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 09:23:23 error k12.mt.us 728 503 HTTP Error 503: Service Unavailable
+2026-11-26 09:28:47 error k12.mt.us 729 503 HTTP Error 503: Service Unavailable
+2026-11-26 09:35:29 error k12.mt.us 731 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 09:41:05 error k12.mt.us 732 503 HTTP Error 503: Service Unavailable
+2026-11-26 09:46:11 error k12.mt.us 732 503 HTTP Error 503: Service Unavailable
+2026-11-26 09:57:20 error k12.mt.us 734 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 10:03:25 error k12.mt.us 736 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 10:09:27 error k12.mt.us 738 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 10:15:34 error k12.mt.us 740 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 10:21:56 error k12.mt.us 742 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 10:28:16 error k12.mt.us 743 504 HTTP Error 504: Gateway Time-out
+2026-11-26 10:34:20 error k12.mt.us 745 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 10:40:15 error k12.mt.us 747 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 10:46:30 error k12.mt.us 749 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 10:52:07 progress k12.mt.us 750 / 2027
+2026-11-26 10:52:31 error k12.mt.us 751 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 10:57:56 error k12.mt.us 752 503 HTTP Error 503: Service Unavailable
+2026-11-26 11:03:56 error k12.mt.us 752 504 HTTP Error 504: Gateway Time-out
+2026-11-26 11:15:27 error k12.mt.us 754 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 11:22:40 error k12.mt.us 756 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 11:28:34 error k12.mt.us 758 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 11:35:15 error k12.mt.us 760 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 11:41:26 error k12.mt.us 762 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 11:47:38 error k12.mt.us 764 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 11:53:58 error k12.mt.us 766 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 12:00:46 error k12.mt.us 768 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 12:06:52 error k12.mt.us 770 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 12:13:11 error k12.mt.us 772 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 12:18:16 error k12.mt.us 772 503 HTTP Error 503: Service Unavailable
+2026-11-26 12:29:45 error k12.mt.us 774 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 12:36:14 error k12.mt.us 776 None <urlopen error [Errno 111] Connection refused>
+2026-11-26 12:41:14 == stopping: chunk time limit (rerun to resume)
