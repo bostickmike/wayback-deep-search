@@ -2373,3 +2373,47 @@
 2026-11-26 17:52:51 error opi.mt.gov 78 None <urlopen error [Errno 111] Connection refused>
 2026-11-26 17:59:35 error opi.mt.gov 80 None <urlopen error [Errno 111] Connection refused>
 2026-11-26 18:04:35 == stopping: chunk time limit (rerun to resume)
+2026-11-26 18:04:52 targets 265
+2026-11-26 18:07:48 error k12.mt.us 780 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 18:16:28 error k12.mt.us 782 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 18:24:27 error k12.mt.us 784 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 18:32:35 error k12.mt.us 786 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 18:42:16 error k12.mt.us 789 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 18:50:28 error k12.mt.us 791 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 18:56:01 error k12.mt.us 792 503 HTTP Error 503: Service Unavailable
+2026-11-26 19:04:48 error k12.mt.us 794 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 19:13:16 error k12.mt.us 796 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 19:18:35 error k12.mt.us 797 503 HTTP Error 503: Service Unavailable
+2026-11-26 19:24:45 error k12.mt.us 798 503 HTTP Error 503: Service Unavailable
+2026-11-26 19:33:20 error k12.mt.us 800 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 19:39:17 progress k12.mt.us 800 / 2027
+2026-11-26 19:42:08 error k12.mt.us 802 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 19:52:35 error k12.mt.us 805 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 19:57:40 error k12.mt.us 805 503 HTTP Error 503: Service Unavailable
+2026-11-26 20:08:05 error k12.mt.us 806 503 HTTP Error 503: Service Unavailable
+2026-11-26 20:13:28 error k12.mt.us 807 503 HTTP Error 503: Service Unavailable
+2026-11-26 20:21:40 error k12.mt.us 809 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 20:29:35 error k12.mt.us 811 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 20:37:38 error k12.mt.us 814 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 20:45:46 error k12.mt.us 816 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 20:53:33 error k12.mt.us 818 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 21:01:57 error k12.mt.us 820 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 21:10:04 error k12.mt.us 822 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 21:16:53 error k12.mt.us 823 504 HTTP Error 504: Gateway Time-out
+2026-11-26 21:25:13 error k12.mt.us 825 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 21:33:08 error k12.mt.us 827 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 21:40:59 error k12.mt.us 829 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 21:46:27 error k12.mt.us 830 503 HTTP Error 503: Service Unavailable
+2026-11-26 21:54:43 error k12.mt.us 832 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 22:02:38 error k12.mt.us 834 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 22:07:43 error k12.mt.us 834 503 HTTP Error 503: Service Unavailable
+2026-11-26 22:20:47 error k12.mt.us 836 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 22:29:03 error k12.mt.us 838 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 22:36:46 error k12.mt.us 840 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 22:42:46 error k12.mt.us 840 504 HTTP Error 504: Gateway Time-out
+2026-11-26 22:53:16 error k12.mt.us 841 503 HTTP Error 503: Service Unavailable
+2026-11-26 23:01:12 error k12.mt.us 843 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 23:09:07 error k12.mt.us 845 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 23:17:31 error k12.mt.us 847 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 23:25:35 error k12.mt.us 849 None <urlopen error [Errno 110] Connection timed out>
+2026-11-26 23:30:35 == stopping: chunk time limit (rerun to resume)
