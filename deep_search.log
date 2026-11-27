@@ -2417,3 +2417,44 @@
 2026-11-26 23:17:31 error k12.mt.us 847 None <urlopen error [Errno 110] Connection timed out>
 2026-11-26 23:25:35 error k12.mt.us 849 None <urlopen error [Errno 110] Connection timed out>
 2026-11-26 23:30:35 == stopping: chunk time limit (rerun to resume)
+2026-11-26 23:30:53 targets 265
+2026-11-26 23:31:46 progress k12.mt.us 850 / 2027
+2026-11-26 23:45:31 error k12.mt.us 878 503 HTTP Error 503: Service Unavailable
+2026-11-26 23:50:59 error k12.mt.us 879 503 HTTP Error 503: Service Unavailable
+2026-11-26 23:58:08 error k12.mt.us 883 503 HTTP Error 503: Service Unavailable
+2026-11-27 00:10:05 error k12.mt.us 894 504 HTTP Error 504: Gateway Time-out
+2026-11-27 00:15:40 error k12.mt.us 895 503 HTTP Error 503: Service Unavailable
+2026-11-27 00:21:53 error k12.mt.us 897 503 HTTP Error 503: Service Unavailable
+2026-11-27 00:27:53 error k12.mt.us 897 504 HTTP Error 504: Gateway Time-out
+2026-11-27 00:38:21 error k12.mt.us 898 503 HTTP Error 503: Service Unavailable
+2026-11-27 00:44:56 progress k12.mt.us 900 / 2027
+2026-11-27 00:46:58 error k12.mt.us 905 503 HTTP Error 503: Service Unavailable
+2026-11-27 00:52:58 error k12.mt.us 905 504 HTTP Error 504: Gateway Time-out
+2026-11-27 01:05:14 error k12.mt.us 908 502 HTTP Error 502: Bad Gateway
+2026-11-27 01:10:43 error k12.mt.us 909 503 HTTP Error 503: Service Unavailable
+2026-11-27 01:22:45 error k12.mt.us 920 504 HTTP Error 504: Gateway Time-out
+2026-11-27 01:40:36 error k12.mt.us 941 504 HTTP Error 504: Gateway Time-out
+2026-11-27 01:51:23 error k12.mt.us 948 504 HTTP Error 504: Gateway Time-out
+2026-11-27 01:56:29 error k12.mt.us 948 503 HTTP Error 503: Service Unavailable
+2026-11-27 02:08:32 progress k12.mt.us 950 / 2027
+2026-11-27 02:15:13 error k12.mt.us 962 503 HTTP Error 503: Service Unavailable
+2026-11-27 02:21:13 error k12.mt.us 962 504 HTTP Error 504: Gateway Time-out
+2026-11-27 02:31:18 error k12.mt.us 962 503 HTTP Error 503: Service Unavailable
+2026-11-27 02:31:18 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-27 02:46:18 targets 265
+2026-11-27 02:47:54 error k12.mt.us 963 504 HTTP Error 504: Gateway Time-out
+2026-11-27 02:57:45 error k12.mt.us 973 503 HTTP Error 503: Service Unavailable
+2026-11-27 03:07:33 error k12.mt.us 978 504 HTTP Error 504: Gateway Time-out
+2026-11-27 03:21:14 error k12.mt.us 989 None <urlopen error [Errno 110] Connection timed out>
+2026-11-27 03:32:50 error k12.mt.us 997 504 HTTP Error 504: Gateway Time-out
+2026-11-27 03:39:35 progress k12.mt.us 1000 / 2027
+2026-11-27 03:45:31 error k12.mt.us 1012 503 HTTP Error 503: Service Unavailable
+2026-11-27 03:56:02 error k12.mt.us 1023 503 HTTP Error 503: Service Unavailable
+2026-11-27 04:02:44 error k12.mt.us 1026 503 HTTP Error 503: Service Unavailable
+2026-11-27 04:11:38 error k12.mt.us 1032 503 HTTP Error 503: Service Unavailable
+2026-11-27 04:21:43 error k12.mt.us 1041 503 HTTP Error 503: Service Unavailable
+2026-11-27 04:32:26 progress k12.mt.us 1050 / 2027
+2026-11-27 04:36:23 error k12.mt.us 1060 503 HTTP Error 503: Service Unavailable
+2026-11-27 04:41:44 error k12.mt.us 1061 503 HTTP Error 503: Service Unavailable
+2026-11-27 04:51:14 error k12.mt.us 1067 504 HTTP Error 504: Gateway Time-out
+2026-11-27 04:56:14 == stopping: chunk time limit (rerun to resume)
