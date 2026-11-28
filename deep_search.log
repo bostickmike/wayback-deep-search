@@ -2684,3 +2684,52 @@
 2026-11-28 07:40:04 error k12.mt.us 1340 503 HTTP Error 503: Service Unavailable
 2026-11-28 07:53:45 error k12.mt.us 1342 None <urlopen error [Errno 110] Connection timed out>
 2026-11-28 07:58:45 == stopping: chunk time limit (rerun to resume)
+2026-11-28 07:58:58 targets 265
+2026-11-28 07:59:51 error k12.mt.us 1343 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 08:06:23 error k12.mt.us 1345 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 08:13:37 error k12.mt.us 1347 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 08:20:17 error k12.mt.us 1349 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 08:26:14 error k12.mt.us 1349 502 HTTP Error 502: Bad Gateway
+2026-11-28 08:36:19 error k12.mt.us 1349 503 HTTP Error 503: Service Unavailable
+2026-11-28 08:51:19 gave up k12.mt.us page 1349
+2026-11-28 08:51:24 error k12.wy.us  503 HTTP Error 503: Service Unavailable
+2026-11-28 08:57:24 error k12.wy.us 97 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 09:03:16 error k12.wy.us 98 503 HTTP Error 503: Service Unavailable
+2026-11-28 09:09:08 error k12.wy.us 100 503 HTTP Error 503: Service Unavailable
+2026-11-28 09:14:53 progress k12.wy.us 100 / 130
+2026-11-28 09:15:53 error k12.wy.us 101 504 HTTP Error 504: Gateway Time-out
+2026-11-28 09:21:47 error k12.wy.us 102 503 HTTP Error 503: Service Unavailable
+2026-11-28 09:26:52 error k12.wy.us 102 503 HTTP Error 503: Service Unavailable
+2026-11-28 09:38:15 error k12.wy.us 104 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 09:44:58 error k12.wy.us 106 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 09:51:27 error k12.wy.us 108 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 09:58:19 error k12.wy.us 110 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 10:04:46 error k12.wy.us 112 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 10:09:51 error k12.wy.us 112 503 HTTP Error 503: Service Unavailable
+2026-11-28 10:20:52 error k12.wy.us 112 504 HTTP Error 504: Gateway Time-out
+2026-11-28 10:35:52 gave up k12.wy.us page 112
+2026-11-28 10:37:30 error opi.mt.gov 81 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 10:43:53 error opi.mt.gov 83 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 10:50:34 error opi.mt.gov 85 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 10:56:57 error opi.mt.gov 87 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 11:02:53 error opi.mt.gov 89 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 11:09:13 error opi.mt.gov 91 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 11:14:18 error opi.mt.gov 91 503 HTTP Error 503: Service Unavailable
+2026-11-28 11:25:36 error opi.mt.gov 93 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 11:31:40 error opi.mt.gov 95 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 11:36:46 error opi.mt.gov 95 503 HTTP Error 503: Service Unavailable
+2026-11-28 11:47:46 error opi.mt.gov 95 504 HTTP Error 504: Gateway Time-out
+2026-11-28 12:02:46 gave up opi.mt.gov page 95
+2026-11-28 12:04:08 error opi.state.mt.us 13 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 12:10:31 error opi.state.mt.us 15 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 12:16:44 error opi.state.mt.us 17 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 12:22:57 error opi.state.mt.us 19 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 12:28:02 error opi.state.mt.us 19 503 HTTP Error 503: Service Unavailable
+2026-11-28 12:39:29 error opi.state.mt.us 21 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 12:46:26 error opi.state.mt.us 22 504 HTTP Error 504: Gateway Time-out
+2026-11-28 12:52:46 error opi.state.mt.us 23 504 HTTP Error 504: Gateway Time-out
+2026-11-28 12:59:21 error opi.state.mt.us 25 None <urlopen error [Errno 111] Connection refused>
+2026-11-28 13:04:27 error opi.state.mt.us 25 503 HTTP Error 503: Service Unavailable
+2026-11-28 13:14:32 error opi.state.mt.us 25 503 HTTP Error 503: Service Unavailable
+2026-11-28 13:29:32 gave up opi.state.mt.us page 25
+2026-11-28 13:29:32 == finished all targets
