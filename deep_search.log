@@ -2640,3 +2640,47 @@
 2026-11-28 02:19:43 error k12.mt.us 1329 None <urlopen error [Errno 110] Connection timed out>
 2026-11-28 02:24:49 error k12.mt.us 1329 503 HTTP Error 503: Service Unavailable
 2026-11-28 02:34:49 == stopping: chunk time limit (rerun to resume)
+2026-11-28 02:35:01 targets 265
+2026-11-28 02:35:06 error k12.mt.us  503 HTTP Error 503: Service Unavailable
+2026-11-28 02:40:26 error k12.mt.us 1329 503 HTTP Error 503: Service Unavailable
+2026-11-28 02:49:09 error k12.mt.us 1331 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 02:59:48 error k12.mt.us 1335 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 03:05:29 error k12.mt.us 1336 503 HTTP Error 503: Service Unavailable
+2026-11-28 03:11:12 error k12.mt.us 1337 503 HTTP Error 503: Service Unavailable
+2026-11-28 03:17:07 error k12.mt.us 1338 503 HTTP Error 503: Service Unavailable
+2026-11-28 03:22:15 error k12.mt.us 1338 502 HTTP Error 502: Bad Gateway
+2026-11-28 03:32:20 error k12.mt.us 1338 503 HTTP Error 503: Service Unavailable
+2026-11-28 03:47:20 gave up k12.mt.us page 1338
+2026-11-28 03:50:27 error k12.wy.us 49 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 03:55:32 error k12.wy.us 49 503 HTTP Error 503: Service Unavailable
+2026-11-28 04:06:13 progress k12.wy.us 50 / 130
+2026-11-28 04:08:28 error k12.wy.us 51 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 04:14:30 error k12.wy.us 52 503 HTTP Error 503: Service Unavailable
+2026-11-28 04:23:13 error k12.wy.us 56 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 04:28:18 error k12.wy.us 56 503 HTTP Error 503: Service Unavailable
+2026-11-28 04:41:18 error k12.wy.us 58 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 04:47:55 error k12.wy.us 61 503 HTTP Error 503: Service Unavailable
+2026-11-28 04:56:07 error k12.wy.us 63 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 05:02:27 error k12.wy.us 65 503 HTTP Error 503: Service Unavailable
+2026-11-28 05:11:04 error k12.wy.us 68 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 05:19:08 error k12.wy.us 70 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 05:25:38 error k12.wy.us 72 503 HTTP Error 503: Service Unavailable
+2026-11-28 05:33:40 error k12.wy.us 74 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 05:46:34 error k12.wy.us 80 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 05:55:23 error k12.wy.us 82 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 06:04:07 error k12.wy.us 84 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 06:09:12 error k12.wy.us 84 503 HTTP Error 503: Service Unavailable
+2026-11-28 06:23:14 error k12.wy.us 87 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 06:33:40 error k12.wy.us 91 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 06:42:08 error k12.wy.us 93 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 06:47:36 error k12.wy.us 94 503 HTTP Error 503: Service Unavailable
+2026-11-28 06:55:48 error k12.wy.us 96 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 07:01:48 error k12.wy.us 96 504 HTTP Error 504: Gateway Time-out
+2026-11-28 07:11:53 error k12.wy.us 96 503 HTTP Error 503: Service Unavailable
+2026-11-28 07:11:53 == stopping: throttled 3 times in a row (rerun to resume)
+2026-11-28 07:26:53 targets 265
+2026-11-28 07:27:11 error k12.mt.us 1338 503 HTTP Error 503: Service Unavailable
+2026-11-28 07:34:59 error k12.mt.us 1340 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 07:40:04 error k12.mt.us 1340 503 HTTP Error 503: Service Unavailable
+2026-11-28 07:53:45 error k12.mt.us 1342 None <urlopen error [Errno 110] Connection timed out>
+2026-11-28 07:58:45 == stopping: chunk time limit (rerun to resume)
